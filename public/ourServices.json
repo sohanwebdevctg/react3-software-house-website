@@ -1,32 +1,38 @@
 [
   {
     "id": "659d28122f83892709e7b717",
-    "name" : "web development",
+    "image" : "https://e7.pngegg.com/pngimages/361/627/png-clipart-leaf-logo-green-leaves-green-and-teal-leaf-logo-text-maple-leaf.png",
+    "name" : "Web Development",
     "details" : "Elevate your online presence with our bespoke web development solutions. From engaging websites to robust e-commerce platforms, we create seamless, scalable, and secure web experiences that drive business growth and user engagement."
   },
   {
     "id": "659d2812cc0ad47de2c0d763",
-    "name" : "mobile development",
+    "image" : "https://e7.pngegg.com/pngimages/361/627/png-clipart-leaf-logo-green-leaves-green-and-teal-leaf-logo-text-maple-leaf.png",
+    "name" : "Mobile Development",
     "details" : "Elevate your online presence with our bespoke web development solutions. From engaging websites to robust e-commerce platforms, we create seamless, scalable, and secure web experiences that drive business growth and user engagement."
   },
   {
     "id": "659d28125454dc3753f09dd1",
-    "name" : "app development",
+    "image" : "https://e7.pngegg.com/pngimages/361/627/png-clipart-leaf-logo-green-leaves-green-and-teal-leaf-logo-text-maple-leaf.png",
+    "name" : "App Development",
     "details" : "Elevate your online presence with our bespoke web development solutions. From engaging websites to robust e-commerce platforms, we create seamless, scalable, and secure web experiences that drive business growth and user engagement."
   },
   {
     "id": "659d28122db1091a64bb7408",
-    "name" : "animation",
+    "image" : "https://e7.pngegg.com/pngimages/361/627/png-clipart-leaf-logo-green-leaves-green-and-teal-leaf-logo-text-maple-leaf.png",
+    "name" : "Animation",
     "details" : "Elevate your online presence with our bespoke web development solutions. From engaging websites to robust e-commerce platforms, we create seamless, scalable, and secure web experiences that drive business growth and user engagement."
   },
   {
     "id": "659d2812e6e8968cb27958c3",
-    "name" : "software development",
+    "image" : "https://e7.pngegg.com/pngimages/361/627/png-clipart-leaf-logo-green-leaves-green-and-teal-leaf-logo-text-maple-leaf.png",
+    "name" : "Software Development",
     "details" : "Elevate your online presence with our bespoke web development solutions. From engaging websites to robust e-commerce platforms, we create seamless, scalable, and secure web experiences that drive business growth and user engagement."
   },
   {
     "id": "659d281289964d4ac5fcb3c4",
-    "name" : "security providers",
+    "image" : "https://e7.pngegg.com/pngimages/361/627/png-clipart-leaf-logo-green-leaves-green-and-teal-leaf-logo-text-maple-leaf.png",
+    "name" : "Security Providers",
     "details" : "Elevate your online presence with our bespoke web development solutions. From engaging websites to robust e-commerce platforms, we create seamless, scalable, and secure web experiences that drive business growth and user engagement."
   }
 ]
