@@ -1,4 +1,5 @@
 import './ServiceProject.css'
+import CountUp from 'react-countup';
 
 const ServiceProject = ({projectsData}) => {
 
@@ -11,7 +12,7 @@ const ServiceProject = ({projectsData}) => {
       {/* logo section end */}
       {/* projectNum & title section start */}
       <p className='flex justify-center gap-1 mt-5 text-2xl sm:text-xl md:text-lg lg:text-2xl font-bold'>
-        <span>{projectNum}</span>
+        <span><CountUp end={projectNum} duration={10}></CountUp></span>
         <span>{title}</span>
       </p>
       {/* projectNum & title section end */}
