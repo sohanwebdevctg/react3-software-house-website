@@ -1,22 +1,20 @@
 import logo from '../../assets/images/google-logo.jpg';
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
 
 // import required modules
-import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
+import { Autoplay, FreeMode } from 'swiper/modules';
 
 
 
 const Security = () => {
   return (
     <>
-      <section  className="w-full h-2/6  pt-3 mb-5 " style={{ borderRadius:"5px 5px 5px 5px" }}>
+      <section  className="w-full h-2/6  pt-3 mb-5 px-6 sm:px-4 lg:px-0 2xl:px-0" style={{ borderRadius:"5px 5px 5px 5px" }}>
         <div className="container mx-auto ">
            <div className="pb-4">
             <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-2">Trusted by <span className='text-blue-600/100'>open</span>, aired out of companies</h2>
