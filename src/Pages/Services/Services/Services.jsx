@@ -1,5 +1,5 @@
 import BestOffer from "../BestOffer/BestOffer";
-import Interesting from "../Interesting/Interesting";
+import ClientDiscussion from "../ClientDiscussion/ClientDiscussion";
 import OurProject from "../OurProject/OurProject";
 import OurServices from "../OurServices/OurServices";
 
@@ -15,15 +15,17 @@ const Services = () => {
       {/* ourServices section start */}
       <OurServices></OurServices>
       {/* ourServices section end */}
-      {/* ourProject section start */}
-      <OurProject></OurProject>
-      {/* ourProject section end */}
+      {/* clientDiscussion section start */}
+      <ClientDiscussion></ClientDiscussion>
+      {/* clientDiscussion section end */}
       {/* bestOffer section start */}
       <BestOffer></BestOffer>
       {/* bestOffer section end */}
-      {/* interesting section start */}
-      <Interesting></Interesting>
-      {/* interesting section end */}
+      {/* ourProject section start */}
+      <OurProject></OurProject>
+      {/* ourProject section end */}
+
+
     </div>
   );
 };

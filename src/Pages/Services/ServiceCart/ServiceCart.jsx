@@ -1,30 +1,25 @@
-import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
-
+import './ServiceCart.css'
 
 const ServiceCart = ({service}) => {
+
   const {image, name, details} = service;
+
   return (
-    <div className="bg-slate-400 m-3 sm:m-2 md:m-1 p-4 sm:p-3 lg:p-5">
-      {/* image start*/}
-      <img src={image} alt="this is image tag" className="w-[18%] sm:w-[20%] md:w-[22%] lg:w-[12%]"></img>
-      {/* image end*/}
-      {/* name start */}
-      <h3 className="text-xl sm:text-lg md:text-base lg:text-2xl my-2">{name}</h3>
-      {/* name end */}
-      <hr className="my-2"></hr>
+    <div className='border-2 hover:border-yellow-400 hover:bg-slate-300 duration-700 rounded-xl'>
+      <div className="m-3 sm:m-2 md:m-2 p-4 sm:p-3 md:p-4 lg:p-5">
+      <div className="flex items-center gap-5 mb-3 sm:mb-2 md:mb-3 lg:mb-4">
+        {/* image start*/}
+        <img src={image} alt="this is image tag" className="w-[12%] sm:w-[13%] md:w-[12%] lg:w-[8%]"></img>
+        {/* image end*/}
+        {/* name start */}
+        <h3 className="text-base sm:text-lg md:text-lg lg:text-2xl my-2">{name}</h3>
+        {/* name end */}
+      </div>
       {/* description start */}
-      <p className="text-base sm:text-base md:text-sm lg:text-lg">{details}</p>
+      <p className="text-sm sm:text-sm md:text-base lg:text-lg">{details}</p>
       {/* description end */}
       {/* details link start */}
-      {/* details link end */}
-      <div className="mt-3">
-        <Link to="/" className="flex gap-2 items-center text-sm sm:text-sm md:text-sm lg:text-base">
-          <span>LEARN MORE</span>
-          <FaArrowRight></FaArrowRight>
-        </Link>
-      </div>
-      {/* details link end */}
+    </div>
     </div>
   );
 };

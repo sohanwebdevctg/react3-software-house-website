@@ -14,7 +14,7 @@ const BestOffer = () => {
   },[])
 
   return (
-    <div>
+    <div className='mt-14'>
       <div className='container mx-auto'>
         {/* content section start */}
         <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:gap-5 lg:gap-10'>
