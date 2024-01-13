@@ -1,13 +1,16 @@
-import Security from '../Security';
+
+import Brands from '../Brands';
 import TopSection from '../TopSection'
 import WhyWeAre from './../WhyWeAre';
+import CardService from './../CardService';
 
 const Home = () => {
   return (
     <>
       <TopSection></TopSection>
       <WhyWeAre></WhyWeAre>
-      <Security></Security>
+      <CardService></CardService>
+      <Brands></Brands>
     </>
   );
 };
