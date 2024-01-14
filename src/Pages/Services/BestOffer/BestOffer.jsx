@@ -22,8 +22,8 @@ const BestOffer = () => {
           <div>
             <div className='ml-3 lg:ml-0'>
               {/* title section start */}
-              <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3'>We Gave The Best Offer</h1>
-              <p className='text-base sm:text-lg md:text-base lg:text-2xl font-bold'>Get Special Offer Until 30 December 2022</p>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>We Gave The Best Offer</h2>
+              <h2 className="text-lg font-bold tracking-tight text-gray-900 sm:text-2xl md:text-3xl lg:text-2xl mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Get Special Offer Until<span className='text-blue-600/100'> <br className="sm:hidden"/>30 December 2022</span></h2>
               {/* title section end */}
             </div>
             {/* offers section start */}

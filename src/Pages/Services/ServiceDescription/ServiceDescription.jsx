@@ -3,24 +3,28 @@ import './ServiceDescription.css'
 
 const ServiceDescription = ({serviceData}) => {
   
-  const {subTitle, title, description, highLight, button} = serviceData;
+  const {title, description, highLight, button} = serviceData;
   return (
     <div>
       {/* subTitle section start */}
-      <h5 className='text-base sm:text-xl md:text-base lg:text-2xl font-bold'>{subTitle}</h5>
+      <h5 className='text-base sm:text-xl md:text-base lg:text-2xl font-bold'></h5>
+      <h2 className="text-lg font-bold tracking-tight text-gray-900 sm:text-2xl md:text-3xl lg:text-3xl mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>The Project that<span className='text-blue-600/100'> Completed</span></h2>
       {/* subTitle section end */}
       {/* title section start */}
-      <h2 className='text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-extrabold my-3'>{title}</h2>
+      <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-extrabold tracking-tight text-gray-900 my-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>{title}</h2>
       {/* title section end */}
       {/* description section start */}
       <p className='text-base sm:text-lg md:text-base lg:text-xl lg:pr-20 my-5'>{description}</p>
       {/* description section end */}
       {/* highLight section start */}
-      <p className='text-lg sm:text-xl md:text-base lg:text-2xl font-bold'>{highLight}</p>
+      <h2 className="text-lg font-bold tracking-tight text-gray-900 sm:text-xl md:text-base lg:text-2xl mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}><span className='text-blue-600/100'> {highLight}</span></h2>
       {/* highLight section end */}
       {/* button section start */}
-      <Link to="/" className="text-white bg-blue-600 py-2 px-3 sm:py-3 sm:px-5 md:py-4 md:px-6 lg:py-3 lg:px-6 inline-block mt-2 sm:mt-3 md:mt-4 lg:mt-6 font-bold ">
-      <button>{button}</button>
+      <Link to="/contact">
+        <button className="group relative h-12  w-32 sm:w-36 md:w-40 lg:w-44 xl:w-48 2xl:w-48 overflow-hidden rounded-lg bg-white text-lg shadow mt-4">
+          <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">Hire Us</span>
+        </button>
       </Link>
       {/* button section end */}
     </div>

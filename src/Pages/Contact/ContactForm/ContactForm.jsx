@@ -14,7 +14,7 @@ const ContactForm = () => {
           </div>
           {/* contactDescription section end */}
           {/* form section start */}
-          <div className='m-3 bg-slate-400 p-5'>
+          <div className='m-3 p-5 shadow-lg -shadow-lg rounded hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50'>
             <Form></Form>
           </div>
           {/* form section end */}

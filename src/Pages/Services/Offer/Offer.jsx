@@ -1,10 +1,9 @@
 import './Offer.css'
 
 const Offer = ({offer}) => {
-  console.log(offer)
   const {logo, description, title} = offer;
   return (
-    <div className='sm:flex items-center gap-5 bg-slate-500 p-4 sm:p-5 lg:p-6 rounded-xl m-2 lg:m-0'>
+    <div className='sm:flex items-center gap-5 p-4 sm:p-5 lg:p-6 rounded-xl m-2 lg:m-0 shadow-lg hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600'>
       {/* logo section start */}
       <div className='flex-1 w-[18%] sm:w-[10%] md:w-[25%] lg:w-[10%] mx-auto'>
         <img className='w-[100%]' src={logo}></img>
