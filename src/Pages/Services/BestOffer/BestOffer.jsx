@@ -17,7 +17,7 @@ const BestOffer = () => {
     <div className='mt-14'>
       <div className='container mx-auto'>
         {/* content section start */}
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:gap-5 lg:gap-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 sm:gap-8 md:gap-1 lg:gap-10'>
           {/* offerType section start */}
           <div>
             <div className='ml-3 lg:ml-0'>
@@ -27,7 +27,7 @@ const BestOffer = () => {
               {/* title section end */}
             </div>
             {/* offers section start */}
-            <div className='grid grid-cols-1 gap-5 mt-4'>
+            <div className='grid grid-cols-1 gap-1 sm:gap-1 md:gap-0 lg:gap-5 mt-4'>
             {
               offers.map((offer) => <Offer
               key={offer.id}
