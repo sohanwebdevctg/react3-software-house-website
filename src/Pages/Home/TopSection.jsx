@@ -1,4 +1,4 @@
-import top_security_image from '../../assets/images/hpme-top-security-removebg-preview.png';
+import top_security_image from '../../assets/images/undraw_security_on_re_e491.svg';
 
 const TopSection = () => {
   return (
@@ -11,7 +11,7 @@ const TopSection = () => {
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Easy to manage our <span className='text-blue-600/100'>project</span></h2>
                 <p>Lorem ipsum dolor sit  consectetur  elit. Et rem odit rerum eum minima labore earum! Reprehenderit sed ipsum perspiciatis!</p>
                 
-                <button className="group relative h-12  w-32 sm:w-36 md:w-40 lg:w-44 xl:w-48 2xl:w-48 overflow-hidden rounded-lg bg-white text-lg shadow mt-4">
+                <button className="group relative h-12 sm:h-8 md:h-8 lg:h-12   w-32 sm:w-36 md:w-40 lg:w-44 xl:w-48 2xl:w-48 overflow-hidden rounded-lg bg-white text-lg shadow mt-4">
                   <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                   <span className="relative text-black group-hover:text-white">Start Now</span>
                 </button>

@@ -14,13 +14,13 @@ import { Autoplay, FreeMode } from 'swiper/modules';
 const Brands = () => {
   return (
     <>
-      <section  className="w-full h-2/6  pt-3 mb-5 px-6 sm:px-4 lg:px-0 2xl:px-0" style={{ borderRadius:"5px 5px 5px 5px" }}>
+      <section  className="w-full h-2/6  pt-8 mb-6 px-6 sm:px-4 lg:px-0 2xl:px-0" style={{ borderRadius:"5px 5px 5px 5px" }}>
         <div className="container mx-auto ">
            <div className="pb-4">
             <h2 className="text-center text-3xl xl:text-4xl 2xl:text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-2" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Trusted by <span className='text-blue-600/100'>open</span>, aired out of companies</h2>
             <p className='text-center mb-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, temporibus.</p>
             
-            <div className=" mt-3 ">  
+            <div className="mt-6 ">  
                 <Swiper 
                     slidesPerView={5}
                     spaceBetween={30}
