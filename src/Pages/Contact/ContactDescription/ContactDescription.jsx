@@ -6,10 +6,10 @@ const ContactDescription = () => {
   return (
     <div>
       {/* subTitle section start */}
-      <h5 className='text-base sm:text-xl md:text-base lg:text-2xl font-bold'>Get in touch</h5>
+      <h2 className="text-base font-bold tracking-tight text-gray-900 sm:text-xl md:text-3xl lg:text-3xl mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Get in<span className='text-blue-600/100'> touch</span></h2>
       {/* subTitle section end */}
       {/* title section start */}
-      <h2 className='text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-extrabold my-2'>Don't hesitate to ask a question</h2>
+      <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-extrabold tracking-tight text-gray-900 my-2" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Don't hesitate to ask a question</h2>
       {/* title section end */}
       {/* description section start */}
       <p className='text-base sm:text-lg md:text-base lg:text-xl lg:pr-20 my-5'>Donec blandit vestibulum varius. Mauris vel euismod velit. Sed congue eu nisl sed egestas.</p>

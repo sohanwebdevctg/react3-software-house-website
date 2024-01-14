@@ -41,7 +41,7 @@ const OurProject = () => {
           {/* serviceDescription section end */}
           {/* serviceProject section start */}
           <div className='m-3'>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-12 sm:gap-10 md:gap-12 lg:gap-24'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-8 md:gap-3 lg:gap-10'>
               {
                 serviceProjects.map((projectsData) => <ServiceProject
                 key={projectsData.id}

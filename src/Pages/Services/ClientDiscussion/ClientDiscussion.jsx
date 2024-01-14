@@ -15,8 +15,12 @@ const ClientDiscussion = () => {
             <h4 className="my-2 sm:my-4 md:my-4 lg:my-5 text-black text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">Need A Consulation?</h4>
             {/* title section end */}
             {/* button section start */}
-            <Link to="/contact" className="text-white bg-blue-600 py-2 px-3 sm:py-3 sm:px-5 md:py-4 md:px-6 lg:py-3 lg:px-6 inline-block mt-2 sm:mt-3 md:mt-4 lg:mt-6 font-bold ">
-              <button>Contact Us</button>
+            
+            <Link to="/contact">
+              <button className="group relative h-12  w-32 sm:w-36 md:w-40 lg:w-44 xl:w-48 2xl:w-48 overflow-hidden rounded-lg bg-white text-lg shadow mt-4">
+                <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                <span className="relative text-black group-hover:text-white">Contact Us</span>
+              </button>
             </Link>
             {/* button section end */}
           </div>
