@@ -4,23 +4,26 @@ import './ContactForm.css'
 
 const ContactForm = () => {
   return (
-    <div>
-      <div className='container mx-auto my-10 lg:my-20'>
+    <div className=''>
+      <div className='container mx-auto shadow-lg rounded hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 -mt-20'>
+      <div className=''>
         {/* content section start */}
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:gap-10'>
+        <div className='md:flex gap-2 '>
           {/* contactDescription section start */}
-          <div className='m-3'>
+          <div className='m-3 flex-2 h-[100%]'>
             <ContactDescription></ContactDescription>
           </div>
           {/* contactDescription section end */}
           {/* form section start */}
-          <div className='m-3 p-5 shadow-lg -shadow-lg rounded hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50'>
+          <div className='m-3 p-5 flex-1'>
             <Form></Form>
           </div>
           {/* form section end */}
         </div>
         {/* content section end */}
       </div>
+      </div>
+      
     </div>
   );
 };

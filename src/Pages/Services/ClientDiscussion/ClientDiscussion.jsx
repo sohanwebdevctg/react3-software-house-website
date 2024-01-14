@@ -3,7 +3,7 @@ import './ClientDiscussion.css'
 
 const ClientDiscussion = () => {
   return (
-    <div className='clientDiscussion w-full sm:h-64 md:h-80 lg:h-96'>
+    <div className='clientDiscussion w-full sm:h-64 md:h-80 lg:h-96 my-5 sm:my-8 md:my-12 lg:my-20'>
       <div className="clientDetails mx-auto h-full">
         <div className="flex items-center justify-center h-full ">
           {/* content section start */}
@@ -12,7 +12,7 @@ const ClientDiscussion = () => {
             <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl">Droop Us a line? We are here<br className="sm:hidden"></br> to answer your question 24/7</p>
             {/* description section end */}
             {/* title section start */}
-            <h4 className="my-2 sm:my-4 md:my-4 lg:my-5 text-black text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">Need A Consulation?</h4>
+            <h4 className="my-2 sm:my-4 md:my-4 lg:my-5 text-amber-400 text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">Need A Consulation?</h4>
             {/* title section end */}
             {/* button section start */}
             

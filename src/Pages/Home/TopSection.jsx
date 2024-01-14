@@ -1,4 +1,6 @@
-import top_security_image from '../../assets/images/hpme-top-security-removebg-preview.png';
+// import top_security_image from '../../assets/images/hpme-top-security-removebg-preview.png';
+import Lottie from "lottie-react";
+import Security from "../../assets/Security.json";
 
 const TopSection = () => {
   return (
@@ -16,8 +18,9 @@ const TopSection = () => {
                   <span className="relative text-black group-hover:text-white">Start Now</span>
                 </button>
             </div>
-            <div>
-                <img className='rounded' src={top_security_image} alt="image" />
+            <div className="overflow-hidden">
+                {/* <img className='rounded' src={top_security_image} alt="image" /> */}
+                <Lottie animationData={Security} loop={true} />
             </div>
         </div>
     </div>

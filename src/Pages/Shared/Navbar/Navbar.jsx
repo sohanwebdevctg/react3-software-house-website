@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
     {/* desktop section start */}
-      <div className="bg-slate-400 hidden md:block">
+      <div className="bg-cyan-500 hidden md:block">
         <div className="container mx-auto">
           <div className="flex justify-between h-20 items-center">
             {/* logo start */}

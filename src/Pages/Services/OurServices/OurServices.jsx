@@ -17,7 +17,7 @@ const OurServices = () => {
 
   return (
     <div>
-      <div className="container mx-auto my-10">
+      <div className="container mx-auto mb-10">
         {/* title section start */}
         <div className='grid grid-cols-1 text-center mb-2 md:mb-3 lg:mb-5'>
           <h2 className="text-center font-semibold  md:font-bold xl:font-bold text-3xl sm:text-4xl md:text-4xl xl:text-4xl mb-2 " style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Our Service</h2>
