@@ -3,7 +3,7 @@
 function CardService() {
   return (
     <>
-      <div className="container m-auto p-6 sm:p-4 md:p-0 xl:p-0 2xl:p-0 my-10">
+      <div className="container m-auto p-6 sm:p-4 md:p-0 xl:p-0 2xl:p-0 ">
         <h2 className="text-center font-semibold  md:font-bold xl:font-bold text-3xl sm:text-4xl md:text-4xl xl:text-4xl mb-2 " style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Our Service</h2>
         <div className="flex justify-center mb-6">
           <h2 className="bg-red-500 w-52 h-[1px] rounded"></h2>

@@ -10,9 +10,9 @@ AOS.init();
 const WhyWeAre = () => {
   return (
     <>
-        <section  className="w-full h-2/6  pt-3 mb-16 mt-16" style={{ borderRadius:"5px 5px 5px 5px" }}>
-            <div className="container mx-auto">
-               <div className="grid md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 mb-4">
+        <section  className="w-full h-2/6  pt-3 mb-16 mt-16" >
+            <div className="container mx-auto overflow-hidden ">
+               <div className="grid md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4  mb-12">
                 <div className="flex justify-center items-center ">
                     <div className='mx-2' data-aos="fade-right">
                         <div className="shadow-lg rounded p-3 text-center sm:2/6 lg:w-48  hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
