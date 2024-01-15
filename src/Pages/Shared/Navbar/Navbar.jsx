@@ -11,17 +11,17 @@ const Navbar = () => {
   return (
     <div>
     {/* desktop section start */}
-      <div className="bg-cyan-500 hidden md:block">
+      <div className=" hidden md:block  bg-indigo-50 fixed z-10 top-0 left-0 right-0 w-full">
         <div className="container mx-auto">
-          <div className="flex justify-between h-20 items-center">
+          <div className="flex justify-between h-16 items-center">
             {/* logo start */}
-            <h1><Link to="/"><h1 className='text-2xl font-bold text-white'>Software house</h1></Link></h1>
+            <h1><Link to="/"><h1 className='text-2xl font-bold'>Software house</h1></Link></h1>
             {/* logo end */}
             {/* link start */}
             <ul className="md:flex gap-10">
-              <li><NavLink to="/" className={({ isActive}) => isActive ? "text-white text-lg font-semibold" : "text-black text-lg" }>Home</NavLink></li>
-              <li><NavLink to="/services" className={({ isActive}) => isActive ? "text-white text-lg font-semibold" : "text-black text-lg" }>Services</NavLink></li>
-              <li><NavLink to="/contact" className={({ isActive}) => isActive ? "text-white text-lg font-semibold" : "text-black text-lg" }>Contact</NavLink></li>
+              <li><NavLink to="/" className={({ isActive}) => isActive ? "text-gray-400 text-lg font-semibold" : "text-black text-lg" }>Home</NavLink></li>
+              <li><NavLink to="/services" className={({ isActive}) => isActive ? "text-gray-400 text-lg font-semibold" : "text-black text-lg" }>Services</NavLink></li>
+              <li><NavLink to="/contact" className={({ isActive}) => isActive ? "text-gray-400 text-lg font-semibold" : "text-black text-lg" }>Contact</NavLink></li>
             </ul>
             {/* link end */}
           </div>
