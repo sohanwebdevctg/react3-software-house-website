@@ -1,26 +1,23 @@
 import './ServiceCart.css'
 
-const ServiceCart = ({service}) => {
+const ServiceCart = ({service, index}) => {
 
   const {image, name, details} = service;
+  
 
   return (
     // <div className='border-2 hover:border-yellow-400 hover:bg-slate-300 duration-700 rounded-xl'>
-    <div className='shadow-lg rounded hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 m-3 sm:m-2 md:m-2 lg:m-0'>
-      <div className="m-3 sm:m-2 md:m-2 p-4 sm:p-3 md:p-4 lg:p-5">
-      <div className="flex items-center gap-5 mb-3 sm:mb-2 md:mb-3 lg:mb-4">
-        {/* image start*/}
-        <img src={image} alt="this is image tag" className="w-[12%] sm:w-[13%] md:w-[12%] lg:w-[8%]"></img>
-        {/* image end*/}
-        {/* name start */}
-        <h3 className="text-base sm:text-lg md:text-lg lg:text-2xl my-2">{name}</h3>
-        {/* name end */}
+    <div className='sm:flex justify-between items-center sm:gap-3 md:gap-2 lg:gap-8'>
+      <div className={`flex-2 m-2 sm:m-1 md:m-2 p-4 sm:p-3 md:p-4 lg:p-2 ${index % 1 == 0 ? 'order-2': 'order-1'}`}>
+        <img className='w-full sm:w-[250px] md:w-[290px] lg:w-[500px] h-52 sm:h-44 md:h-52 lg:h-60' src={image}></img>
       </div>
-      {/* description start */}
-      <p className="text-sm sm:text-sm md:text-base lg:text-lg">{details}</p>
-      {/* description end */}
-      {/* details link start */}
-    </div>
+      <div className={`shadow-lg rounded hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 m-3 sm:m-2 md:m-2 lg:m-0 flex-1 ${index % 2 === 0 ? 'order-2': 'order-1'}`}>
+        <div className="m-3 sm:m-2 md:m-2 p-4 sm:p-2 md:p-3 lg:p-5">
+          <h3 className="text-base sm:text-base md:text-lg lg:text-2xl my-2">{name}</h3>
+          <p className="text-sm sm:text-xs md:text-sm lg:text-lg">{details}</p>
+
+        </div>
+      </div>
     </div>
   );
 };

@@ -28,10 +28,11 @@ const OurServices = () => {
         </div>
         {/* title section end */}
         {/* serviceCart section start */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-5 md:gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 gap-4 sm:gap-5 md:gap-4 lg:gap-6">
           {
-            services.map((service) => <ServiceCart
+            services.map((service,index) => <ServiceCart
             key={service.id}
+            index={index}
             service={service}
             ></ServiceCart>)
           }
