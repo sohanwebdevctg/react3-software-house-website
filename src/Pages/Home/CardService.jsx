@@ -1,4 +1,5 @@
 import cardImage from '../../assets/images/undraw_watch_application_uhc9.svg'
+import './CardService.css'
 
 function CardService() {
 
@@ -9,28 +10,46 @@ function CardService() {
         <div className="flex justify-center mb-6">
           <h2 className="bg-red-500 w-52 h-[1px] rounded"></h2>
         </div>
-        <div className='flex justify-center'>
-          <div className="grid sm:grid-cols-2 md:gird-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-2 sm:gap-3 md:gap-4 xl:gap-8 2xl:gap-8 2xl:gird-cols-3">
-            {/* i 1 */}
-            <a href="#">
-              <div className="p-3">
-                <div className="shadow-lg  shadow-teal-500/50  cursor-pointer p-2 rounded-full  ">
-                  <div className="relative "> 
-                    <img className="mb-4 rounded w-full h-auto p-1" src={cardImage} alt="image" />
-                    {/* <div className="absolute top-0 right-0 me-2 mt-1 p-[1px] px-3 text-white border border-sky-400 rounded bg-sky-900/50 font-semibold">
-                      App Development
-                    </div> */}
-                  </div>                
-                  <h3 className="font-bold text-xl text-center text-teal-400">Lorem ipsum dolor sit.</h3>
-                  <p className="text-justify px-3 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde impedit dolor! Quos neque dolorem ab eveniet odit quam consequatur</p>
-                  <div className='flex justify-center mb-3'>
-                  <button className="py-2 px-3 bg-teal-500 text-white text-sm font-semibold rounded-md shadow-lg shadow-teal-500/50 focus:outline-none mt-4 mb-2 ">Learn More</button>
-                  </div>
-                </div>
+        {/* card section start */}
+        <div className='flex justify-around items-center h-96'>
+          <div className='card bg-slate-300 w-64 h-[186px] duration-200 hover:h-48 rounded-xl relative'>
+            <div className='rounded-xl z-10 absolute left-0 right-0 -top-20'>
+              <img className='w-40 h-40 mx-auto bg-slate-100 rounded-xl' src={cardImage}></img>
+            </div>
+            <div className='text-center flex justify-center'>
+              <div className='absolute bottom-0 overflow-hidden mb-2'>
+              <h1 className='text-xl'>Home section</h1>
+              <button className='bg-blue-400 px-2 py-3 my-2 rounded-md'>show detail</button>
               </div>
-            </a>
-          </div>   
+            </div>
+            
+          </div>
+          <div className='card bg-slate-300 w-64 h-[186px] duration-200 hover:h-48 rounded-xl relative'>
+            <div className='rounded-xl z-10 absolute left-0 right-0 -top-20'>
+              <img className='w-40 h-40 mx-auto bg-slate-100 rounded-xl' src={cardImage}></img>
+            </div>
+            <div className='text-center flex justify-center'>
+              <div className='absolute bottom-0 overflow-hidden mb-2'>
+              <h1 className='text-xl'>Home section</h1>
+              <button className='bg-blue-400 px-2 py-3 my-2 rounded-md'>show detail</button>
+              </div>
+            </div>
+            
+          </div>
+          <div className='card bg-slate-300 w-64 h-[186px] duration-200 hover:h-48 rounded-xl relative'>
+            <div className='rounded-xl z-10 absolute left-0 right-0 -top-20'>
+              <img className='w-40 h-40 mx-auto bg-slate-100 rounded-xl' src={cardImage}></img>
+            </div>
+            <div className='text-center flex justify-center'>
+              <div className='absolute bottom-0 overflow-hidden mb-2'>
+              <h1 className='text-xl'>Home section</h1>
+              <button className='bg-blue-400 px-2 py-3 my-2 rounded-md'>show detail</button>
+              </div>
+            </div>
+            
+          </div>
         </div>
+        {/* card section end */}
       </div>
     </>
   )

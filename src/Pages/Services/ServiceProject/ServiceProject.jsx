@@ -1,12 +1,14 @@
 import './ServiceProject.css'
 import CountUp from 'react-countup';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ServiceProject = ({projectsData}) => {
 
   const {logo, projectNum, title} = projectsData;
 
   return (
-    <div className='text-center mt-3 sm:mt-5 md:mt-2 shadow-lg rounded-xl hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 p-5 md:p-3 lg:p-5'>
+    <div data-aos="fade-right" className='text-center mt-3 sm:mt-5 md:mt-2 shadow-lg rounded-xl hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 p-5 md:p-3 lg:p-5'>
       {/* logo section start */}
       <img className='w-[20%] sm:w-[25%] md:w-[12%] lg:w-[40%] mx-auto' src={logo}></img>
       {/* logo section end */}

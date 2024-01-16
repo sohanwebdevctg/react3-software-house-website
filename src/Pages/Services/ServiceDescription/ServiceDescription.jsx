@@ -21,9 +21,9 @@ const ServiceDescription = ({serviceData}) => {
       {/* highLight section end */}
       {/* button section start */}
       <Link to="/contact">
-        <button className="group relative h-12  w-32 sm:w-36 md:w-40 lg:w-44 xl:w-48 2xl:w-48 overflow-hidden rounded-lg bg-white text-lg shadow mt-4">
-          <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-black group-hover:text-white">Hire Us</span>
+        <button className="group relative h-10 sm:h-10 md:h-10 lg:h-11  w-24 sm:w-28 md:w-28 lg:w-36 overflow-hidden rounded-lg bg-white text-lg shadow">
+          <div className="absolute inset-0 w-3 bg-teal-500 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white text-sm sm:text-sm md:text-sm lg:text-base">Start Now</span>
         </button>
       </Link>
       {/* button section end */}
