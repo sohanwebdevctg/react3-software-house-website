@@ -1,7 +1,9 @@
 import BestOffer from "../BestOffer/BestOffer";
+import CardService from "../CardService/CardService";
 import ClientDiscussion from "../ClientDiscussion/ClientDiscussion";
 import OurProject from "../OurProject/OurProject";
-import OurServices from "../OurServices/OurServices";
+import Title from './../../../components/Title';
+
 
 
 
@@ -12,9 +14,12 @@ const Services = () => {
 
   return (
     <div>
-      {/* ourServices section start */}
-      <OurServices></OurServices>
-      {/* ourServices section end */}
+      {/* title section start */}
+      <Title title={'Services'}></Title>
+      {/* title section end */}
+      {/* cardService section start */}
+      <CardService></CardService>
+      {/* cardService section end */}
       {/* clientDiscussion section start */}
       <ClientDiscussion></ClientDiscussion>
       {/* clientDiscussion section end */}
