@@ -1,0 +1,27 @@
+.serviceCon{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.serviceCon::-webkit-scrollbar {
+  width: 8px;
+}
+
+.serviceCon::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.serviceCon::-webkit-scrollbar-track {
+  background-color: rgb(231, 231, 231);
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
