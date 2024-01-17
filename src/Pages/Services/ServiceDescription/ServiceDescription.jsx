@@ -22,7 +22,7 @@ const ServiceDescription = ({serviceData}) => {
       {/* button section start */}
       <Link to="/contact">
         <button className="group relative h-10 sm:h-10 md:h-10 lg:h-11  w-24 sm:w-28 md:w-28 lg:w-36 overflow-hidden rounded-lg bg-white text-lg shadow">
-          <div className="absolute inset-0 w-3 bg-teal-500 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+          <div className="absolute inset-0 w-3 bg-blue-600/100 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span className="relative text-black group-hover:text-white text-sm sm:text-sm md:text-sm lg:text-base">Start Now</span>
         </button>
       </Link>

@@ -26,7 +26,10 @@ function CardService() {
               <div className='absolute bottom-0 overflow-hidden mb-2'>
               <h1 className='text-base lg:text-xl'>Home section</h1>
               <Link to="/">
-                <button className='bg-teal-500 text-slate-200 text-sm font-bold px-2 py-2 lg:px-2 lg:py-3 my-2 rounded-md'>show detail</button>
+                <button className="group relative h-10 sm:h-9 md:h-10 lg:h-10   w-24 sm:w-24 md:w-28 lg:w-24 overflow-hidden rounded-lg bg-white text-lg shadow mt-4 mb-2">
+                  <div className="absolute inset-0 w-3 bg-blue-600/100 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                  <span className="relative text-black group-hover:text-white text-sm sm:text-sm md:text-sm lg:text-base">Start Now</span>
+                </button>
               </Link>
               </div>
             </div>
@@ -39,7 +42,10 @@ function CardService() {
               <div className='absolute bottom-0 overflow-hidden mb-2'>
               <h1 className='text-base lg:text-xl'>Home section</h1>
               <Link to="/">
-                <button className='bg-teal-500 text-slate-200 text-sm font-bold px-2 py-2 lg:px-2 lg:py-3 my-2 rounded-md'>show detail</button>
+                <button className="group relative h-10 sm:h-9 md:h-10 lg:h-10   w-24 sm:w-24 md:w-28 lg:w-24 overflow-hidden rounded-lg bg-white text-lg shadow mt-4 mb-2">
+                  <div className="absolute inset-0 w-3 bg-blue-600/100 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                  <span className="relative text-black group-hover:text-white text-sm sm:text-sm md:text-sm lg:text-base">Start Now</span>
+                </button>
               </Link>
               </div>
             </div>
@@ -52,7 +58,10 @@ function CardService() {
               <div className='absolute bottom-0 overflow-hidden mb-2'>
               <h1 className='text-base lg:text-xl'>Home section</h1>
               <Link to="/">
-                <button className='bg-teal-500 text-slate-200 text-sm font-bold px-2 py-2 lg:px-2 lg:py-3 my-2 rounded-md'>show detail</button>
+                <button className="group relative h-10 sm:h-9 md:h-10 lg:h-10   w-24 sm:w-24 md:w-28 lg:w-24 overflow-hidden rounded-lg bg-white text-lg shadow mt-4 mb-2">
+                  <div className="absolute inset-0 w-3 bg-blue-600/100 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                  <span className="relative text-black group-hover:text-white text-sm sm:text-sm md:text-sm lg:text-base">Start Now</span>
+                </button>
               </Link>
               </div>
             </div>
@@ -65,7 +74,10 @@ function CardService() {
               <div className='absolute bottom-0 overflow-hidden mb-2'>
               <h1 className='text-base lg:text-xl'>Home section</h1>
               <Link to="/">
-                <button className='bg-teal-500 text-slate-200 text-sm font-bold px-2 py-2 lg:px-2 lg:py-3 my-2 rounded-md'>show detail</button>
+                <button className="group relative h-10 sm:h-9 md:h-10 lg:h-10   w-24 sm:w-24 md:w-28 lg:w-24 overflow-hidden rounded-lg bg-white text-lg shadow mt-4 mb-2">
+                  <div className="absolute inset-0 w-3 bg-blue-600/100 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                  <span className="relative text-black group-hover:text-white text-sm sm:text-sm md:text-sm lg:text-base">Start Now</span>
+                </button>
               </Link>
               </div>
             </div>

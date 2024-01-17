@@ -4,11 +4,12 @@
 }
 
 .serviceCon::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
+  
 }
 
 .serviceCon::-webkit-scrollbar-thumb {
-  background-color: rgb(67, 177, 164);
+  background-color: #111827;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
