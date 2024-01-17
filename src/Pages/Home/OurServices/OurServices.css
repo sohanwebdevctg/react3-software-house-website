@@ -8,7 +8,7 @@
 }
 
 .serviceCon::-webkit-scrollbar-thumb {
-  background-color: gray;
+  background-color: rgb(67, 177, 164);
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -17,8 +17,8 @@
 }
 
 .serviceCon::-webkit-scrollbar-track {
-  background-color: rgb(231, 231, 231);
-  border: 1px solid #ffffff;
+  background-color: rgb(241, 238, 238);
+  border: 1px solid #fdf8f8;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;

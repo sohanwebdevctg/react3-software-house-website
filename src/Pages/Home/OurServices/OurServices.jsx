@@ -2,7 +2,10 @@ import './OurServices.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import ServiceData from '../ServiceData/ServiceData.jsx';
-import ServiceImg from '../../../../public/service/serviceImg.jpg'
+import Lottie from "lottie-react";
+import ClientService from "../../../assets/one.json";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const OurServices = () => {
@@ -29,13 +32,13 @@ const OurServices = () => {
           <h2 className="text-lg font-bold tracking-tight text-gray-900 sm:text-2xl md:text-2xl lg:text-3xl mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>Enhancing Creativity,<span className='text-blue-600/100'> Step by Step</span></h2>
         </div>
         {/* title section end */}
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 md:h-64 lg:h-96  gap-6" >
-            <div>
-              <img className='w-full lg:w-[100%]' src={ServiceImg}></img>
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 md:h-64 lg:h-[450px] gap-6" >
+            <div className='flex items-center overflow-hidden h-full justify-center'>
+              <Lottie data-aos="fade-right" className="w-[100%]" animationData={ClientService} loop={true} />
             </div>
             <div className="serviceCon p-5">
               {
-              service.map((service, index) => <ServiceData
+              service.map((service, index) => <ServiceData 
               service={service}
               key={service._id}
               index={index}
