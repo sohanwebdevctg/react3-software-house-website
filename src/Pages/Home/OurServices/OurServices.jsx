@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import ServiceData from '../ServiceData/ServiceData.jsx';
 import Lottie from "lottie-react";
-import ClientService from "../../../assets/one.json";
+import ourServiceSecurity from '../../../assets/ourServiceSecurity.json'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -34,7 +34,7 @@ const OurServices = () => {
         {/* title section end */}
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 md:h-64 lg:h-[450px] gap-6" >
             <div className='flex items-center overflow-hidden h-full justify-center'>
-              <Lottie data-aos="fade-right" className="w-[100%]" animationData={ClientService} loop={true} />
+              <Lottie data-aos="fade-right" className="w-[100%]" animationData={ourServiceSecurity} loop={true} />
             </div>
             <div className="serviceCon p-5">
               {
