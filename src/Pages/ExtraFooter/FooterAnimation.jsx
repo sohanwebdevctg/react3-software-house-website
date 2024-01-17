@@ -3,10 +3,10 @@ import './FooterAnimation.css'
 const FooterAnimation = () => {
   return (
     <>
-
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
       <div>
-        {/*Hey! This is the original version
-of Simple CSS Waves*/}
         <div className="animationHeader">
 
           <div className='mt-4'>

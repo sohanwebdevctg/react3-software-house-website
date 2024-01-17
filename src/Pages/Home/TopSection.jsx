@@ -7,7 +7,8 @@ import './TopSection.css';
 const TopSection = () => {
   return (
     <>
-    <section className="w-full h-2/6 mb-2  pt-3  bg-gradient-to-br from-indigo-50 to-cyan-50 " style={{ borderRadius:"99% 1% 79% 21% / 0% 79% 21% 100% " }}>
+    {/* 99% 1% 79% 21% / 0% 79% 21% 100%  */}
+    <section className="w-full h-2/6 mb-2  pt-3  bg-gradient-to-br from-indigo-50 to-cyan-50 mt-12" style={{ borderRadius:"99% 1% 79% 21% / 0% 79% 21% 100% " }}>
     <div className="container mx-auto ">
         <div className="grid grid-cols-1 sm:grid-cols-1 md:gird-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 py-3 items-center ">
             <div className='px-6 sm:px-4 md:px-2 lg:px-0 xl:px-0 2xl:px-0'>
@@ -25,22 +26,6 @@ const TopSection = () => {
         </div>
     </div>
     </section>
-
-   
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-    {/* <div id='title'>
-      <span>
-        PURE CSS
-      </span>
-
-      <span>
-        PARALLAX PIXEL STARS
-      </span>
-    </div> */}
-
-
 
     </>
   )
