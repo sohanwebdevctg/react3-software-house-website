@@ -3,36 +3,36 @@
     "id": "659d28122f83892709e7b717",
     "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
     "name" : "Web Development",
-    "details" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quod enim odit deleniti est non velit excepturi consequatur, distinctio id, vel a laboriosam voluptatem consectetur facere reprehenderit sint nisi. Sit officia similique ipsum, quae quasi, nemo voluptatum saepe id illum atque velit debitis dicta magni totam quibusdam quod consectetur soluta."
+    "details" : "Our Web Development service is tailored to businesses seeking to establish or enhance their online presence. We specialize in crafting dynamic websites and web applications that engage users and drive results. Our expertise spans frontend design, backend programming, and database management, ensuring functionality, performance, and scalability. With a focus on responsive design and security, we deliver solutions that look great on all devices and safeguard against cyber threats. Collaborative and iterative, our process prioritizes client objectives and feedback, resulting in timely, effective, and impactful web solutions."
   },
   {
     "id": "659d2812cc0ad47de2c0d763",
     "image" : "https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg",
-    "name" : "Mobile Development",
-    "details" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quod enim odit deleniti est non velit excepturi consequatur, distinctio id, vel a laboriosam voluptatem consectetur facere reprehenderit sint nisi. Sit officia similique ipsum, quae quasi, nemo voluptatum saepe id illum atque velit debitis dicta magni totam quibusdam quod consectetur soluta."
+    "name" : "Research and Content Planing",
+    "details" : "Building Foundations, Crafting Narratives: The Art of Strategic Research and Content Planning."
   },
   {
     "id": "659d28125454dc3753f09dd1",
     "image" : "https://st3.depositphotos.com/1021722/33394/i/450/depositphotos_333943612-stock-photo-beautiful-nature-countryside-landscape-spring.jpg",
-    "name" : "App Development",
-    "details" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quod enim odit deleniti est non velit excepturi consequatur, distinctio id, vel a laboriosam voluptatem consectetur facere reprehenderit sint nisi. Sit officia similique ipsum, quae quasi, nemo voluptatum saepe id illum atque velit debitis dicta magni totam quibusdam quod consectetur soluta."
+    "name" : "Publishing and Execution",
+    "details" : "From Vision to Reality: Mastering the Art of Publishing and Flawless Execution."
   },
   {
     "id": "659d28122db1091a64bb7408",
     "image" : "https://www.w3schools.com/css/img_5terre.jpg",
-    "name" : "Animation",
-    "details" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quod enim odit deleniti est non velit excepturi consequatur, distinctio id, vel a laboriosam voluptatem consectetur facere reprehenderit sint nisi. Sit officia similique ipsum, quae quasi, nemo voluptatum saepe id illum atque velit debitis dicta magni totam quibusdam quod consectetur soluta."
+    "name" : "Product Prototyping",
+    "details" : "Precision in Every Detail: Bringing Your Vision to Life through Seamless Final Product Delivery."
   },
   {
     "id": "659d2812e6e8968cb27958c3",
     "image" : "https://pe-images.s3.amazonaws.com/type/effects/image-in-text/new/hawaii.jpg",
     "name" : "Software Development",
-    "details" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quod enim odit deleniti est non velit excepturi consequatur, distinctio id, vel a laboriosam voluptatem consectetur facere reprehenderit sint nisi. Sit officia similique ipsum, quae quasi, nemo voluptatum saepe id illum atque velit debitis dicta magni totam quibusdam quod consectetur soluta."
+    "details" : "Our Software Development service offers tailored solutions to meet your business needs. From web and mobile applications to desktop software and enterprise solutions, we provide efficient and innovative development using the latest technologies. With a focus on collaboration and quality, we deliver high-performance software that drives growth and streamlines operations."
   },
   {
     "id": "659d281289964d4ac5fcb3c4",
     "image" : "https://img.freepik.com/free-photo/spooky-tree-against-big-moon_1048-2912.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705190400&semt=ais",
-    "name" : "Security Providers",
-    "details" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quod enim odit deleniti est non velit excepturi consequatur, distinctio id, vel a laboriosam voluptatem consectetur facere reprehenderit sint nisi. Sit officia similique ipsum, quae quasi, nemo voluptatum saepe id illum atque velit debitis dicta magni totam quibusdam quod consectetur soluta."
+    "name" : "Deliver the Final Product",
+    "details" : "Crafting Excellence: Your Vision Realized through Impeccable Final Product Delivery."
   }
 ]
