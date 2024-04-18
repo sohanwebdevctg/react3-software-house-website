@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
         {/* footer animation  */}        
-          <FooterAnimation></FooterAnimation>
+        <FooterAnimation></FooterAnimation>
         {/* footer animation end */}
       <div className="container mx-auto">
         {/* content section start */}
