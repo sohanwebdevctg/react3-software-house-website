@@ -1,0 +1,72 @@
+.content{
+  display: grid;
+  place-items: center;
+  margin-inline: 1.5rem;
+  padding-block: 5rem;
+}
+
+.cardContent{
+  display: grid;
+  row-gap: 3.5rem;
+}
+
+.cardArticle{
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImg{
+  width: 328px;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+.cardData{
+  width: 280px;
+  background-color: azure;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px rgba(0,0%,0%, .15);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+  -webkit-transition: opacity 1s 1s;
+  -moz-transition: opacity 1s 1s;
+  -ms-transition: opacity 1s 1s;
+  -o-transition: opacity 1s 1s;
+}
+
+.cardDes{
+  display: block;
+  font-size: 12px;
+  margin-bottom: .25rem;
+}
+
+.cardTitle{
+  font-size: 16px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: .75rem;
+}
+
+.cardBtn{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: blue;
+}
+
+.cardBtn:hover{
+  text-decoration: underline;
+}
