@@ -1,41 +1,41 @@
-.content{
-  display: grid;
-  place-items: center;
-  margin-inline: 1.5rem;
-  padding-block: 5rem;
-}
 
-.cardContent{
-  display: grid;
-  row-gap: 3.5rem;
-}
 
 .cardArticle{
   position: relative;
   overflow: hidden;
 }
 
-.cardImg{
-  width: 328px;
-  border-radius: 1.5rem;
-  -webkit-border-radius: 1.5rem;
-  -moz-border-radius: 1.5rem;
-  -ms-border-radius: 1.5rem;
-  -o-border-radius: 1.5rem;
+.cardArticle:not(:hover){
+  animation: showOverflow 2s forwards;
+  -webkit-animation: showOverflow 2s forwards;
 }
 
+.cardArticle:not(:hover) .cardData{
+  animation: removeData 1s forwards;
+  -webkit-animation: removeData 1s forwards;
+}
+
+.cardArticle:hover{
+  animation: removeOverflow 2s forwards;
+  -webkit-animation: removeOverflow 2s forwards;
+}
+
+.cardArticle:hover .cardData{
+  animation: showData 1s forwards;
+  -webkit-animation: showData 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -ms-transition: opacity .3s;
+  -o-transition: opacity .3s;
+}
+
+
+
 .cardData{
-  width: 280px;
-  background-color: azure;
-  padding: 1.5rem 2rem;
-  box-shadow: 0 8px 24px rgba(0,0%,0%, .15);
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
   position: absolute;
-  bottom: -2rem;
+  bottom: -9rem;
   left: 0;
   right: 0;
   margin-inline: auto;
@@ -47,26 +47,59 @@
   -o-transition: opacity 1s 1s;
 }
 
-.cardDes{
-  display: block;
-  font-size: 12px;
-  margin-bottom: .25rem;
+@keyframes showData{
+  50%{
+    transform: translateY(-10rem);
+    -webkit-transform: translateY(-10rem);
+    -moz-transform: translateY(-10rem);
+    -ms-transform: translateY(-10rem);
+    -o-transform: translateY(-10rem);
+  }
+  100%{
+    transform: translateY(-7rem);
+    -webkit-transform: translateY(-7rem);
+    -moz-transform: translateY(-7rem);
+    -ms-transform: translateY(-7rem);
+    -o-transform: translateY(-7rem);
+}
 }
 
-.cardTitle{
-  font-size: 16px;
-  font-weight: 500;
-  color: red;
-  margin-bottom: .75rem;
+@keyframes removeOverflow{
+  to{
+    overflow: initial;
+  }
 }
 
-.cardBtn{
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  color: blue;
+@keyframes removeData{
+  0%{
+    transform: translateY(-7rem);
+    -webkit-transform: translateY(-7rem);
+    -moz-transform: translateY(-7rem);
+    -ms-transform: translateY(-7rem);
+    -o-transform: translateY(-7rem);
+  }
+  50%{
+    transform: translateY(-10rem);
+    -webkit-transform: translateY(-10rem);
+    -moz-transform: translateY(-10rem);
+    -ms-transform: translateY(-10rem);
+    -o-transform: translateY(-10rem);
+}
+  100%{
+    transform: translateY(.5rem);
+    -webkit-transform: translateY(.5rem);
+    -moz-transform: translateY(.5rem);
+    -ms-transform: translateY(.5rem);
+    -o-transform: translateY(.5rem);
+}
 }
 
-.cardBtn:hover{
-  text-decoration: underline;
+@keyframes showOverflow{
+  0%{
+    overflow: initial;
+    pointer-events: none;
+  }
+  50%{
+    overflow: hidden;
+  }
 }
