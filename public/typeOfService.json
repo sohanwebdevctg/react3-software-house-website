@@ -19,26 +19,5 @@
     "description" : "Hello World! Bangladesh",
     "title" : "The Great Path",
     "link" : "Read More"
-  },
-  {
-    "id" : "6620f45d1df7c1ecc2a37c9b",
-    "image" : "https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=",
-    "description" : "Hello World! Bangladesh",
-    "title" : "The Great Path",
-    "link" : "Read More"
-  },
-  {
-    "id" : "6620f45d8d5aa18b859bcc7f",
-    "image" : "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1827530304.1713312000&semt=sph",
-    "description" : "Hello World! Bangladesh",
-    "title" : "The Great Path",
-    "link" : "Read More"
-  },
-  {
-    "id" : "6620f45dabe3eb0a8f209473",
-    "image" : "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1713398400&semt=ais",
-    "description" : "Hello World! Bangladesh",
-    "title" : "The Great Path",
-    "link" : "Read More"
   }
 ]
