@@ -1,38 +1,57 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
+import formImg from '../../../public/formImg.png';
+import formlogo from '../../../public/formlogo.png';
+import googlelogo from '../../../public/Google.png'
 
 const Login = () => {
 
-  const loginData = (event) => {
-    event.preventDefault();
-    const form = event.target;
-    const email = form.email.value;
-    const password = form.password.value;
-    console.log(email, password)
-    form.reset();
-  }
+  // const loginData = (event) => {
+  //   event.preventDefault();
+  //   const form = event.target;
+  //   const email = form.email.value;
+  //   const password = form.password.value;
+  //   console.log(email, password)
+  //   form.reset();
+  // }
 
   return (
-    <div className='my-14'>
-      <div className='container mx-auto flex justify-center'>
-        <div className="w-full md:w-2/4 shadow-2xl bg-base-100">
-          <form onSubmit={loginData} className="card-body">
-            <h1 className='text-2xl font-bold mx-auto'>LogIn</h1>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Email</span>
-              </label>
-              <input type="email" name="email" placeholder="email" className="input input-bordered" />
+    <div className='bg-gradient-to-r from-pink-100  to-green-100 py-12'>
+      <div className='container mx-auto flex justify-center items-center px-5 md:px-0 '>
+        <div className="w-full md:w-4/5 lg:3/4 shadow-2xl bg-base-200 sm:flex sm:justify-between sm:items-center rounded-2xl p-5">
+          <div className='sm:flex-1 sm:px-5 md:px-7 lg:px-10 flex flex-col justify-stretch'>
+            <div>
+              <img src={formlogo} className='w-[40%] h-[15%] sm:w-[35%] md:w-[32%] lg:w-[30%] lg:h-[10%]'></img>
             </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Password</span>
-              </label>
-              <input type="password" name="password" placeholder="password" className="input input-bordered"/>
+            <div className='my-4 sm:my-5 md:my-7 space-y-3'>
+              <h1 className='text-xl sm:text-base md:text-lg lg:text-2xl text-black'>WellCome Back!</h1>
+              <p className='text-sm sm:text-sm md:text-base lg:text-sm text-gray-500'>Please enter log in details below</p>
             </div>
-            <div className="form-control mt-4">
-              <button type="submit" className="btn btn-primary">Login</button>
+            <form className="space-y-5 sm:space-y-2 md:space-y-3">
+              <div className="form-control">
+                <input type="email" placeholder="Email" className="input input-bordered" />
+              </div>
+              <div className="form-control">
+                <input type="password" placeholder="password" className="input input-bordered" />
+                <label className="label text-end inline-block">
+                  <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                </label>
+              </div>
+              <div className="form-control mt-6 sm:mt-3 md:mt-2 lg:mt-6">
+                <button type='submit' className="btn bg-black text-white hover:bg-black">Login</button>
+              </div>
+            </form>
+            <div className="divider">or continue</div>
+            {/* <button className=" flex justify-center items-center gap-2 border-[1px] border-gray-300 py-2 rounded-xl my-3">
+            <img src={googlelogo} className='w-7 h-7'></img>
+            <span className='text-base'>Log in with Goole</span>
+            </button> */}
+            <div className='flex justify-center items-center gap-2'>
+              <p className='text-sm sm:text-sm md:text-base lg:text-base text-gray-500'>Don't have an account? </p> <Link to="#" className='text-black font-semibold text-sm sm:text-sm md:text-base lg:text-base'> SignUp</Link>
             </div>
-          </form>
+          </div>
+          <div className='hidden sm:block sm:flex-1'>
+            <img src={formImg} className=' w-full h-full rounded-es-[10%] rounded-xl'></img>
+          </div>
         </div>
       </div>
     </div>
