@@ -5,7 +5,7 @@ import Footer from "../Pages/Shared/Footer/Footer";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* navbar section start */}
       <Navbar></Navbar>
       {/* navbar section end */}

@@ -15,7 +15,7 @@ const WhyWeAre = () => {
                     <div className="lg:flex items-center justify-center gap-10  mb-12">
                         <div className="flex justify-center items-center">
                             <div className='mx-1 sm:mx-2' data-aos="fade-right">
-                                <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-4   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
+                                <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-44   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                                     <lord-icon
                                         src="https://cdn.lordicon.com/wuvorxbv.json"
                                         trigger="hover"
@@ -36,7 +36,7 @@ const WhyWeAre = () => {
                                     </div>
                                 </div>
                                 <div className='mt-5' data-aos="fade-up">
-                                    <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-4   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
+                                    <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-44   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                                         <lord-icon
                                             src="https://cdn.lordicon.com/abwrkdvl.json"
                                             trigger="hover">
@@ -47,7 +47,7 @@ const WhyWeAre = () => {
                                 </div>
                             </div>
                             <div className='m-1 sm:mx-2'>
-                                <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-4   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50" data-aos="fade-left">
+                                <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-44   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50" data-aos="fade-left">
                                     <lord-icon
                                         src="https://cdn.lordicon.com/lbjtvqiv.json"
                                         trigger="hover">
