@@ -4,10 +4,10 @@ import FooterAnimation from '../../ExtraFooter/FooterAnimation';
 
 const Footer = () => {
   return (
-    <div>
-        {/* footer animation  */}        
-        <FooterAnimation></FooterAnimation>
-        {/* footer animation end */}
+    <div className="overflow-hidden">
+      {/* footer animation  */}
+      <FooterAnimation></FooterAnimation>
+      {/* footer animation end */}
       <div className="container mx-auto">
         {/* content section start */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-1 mt-10 mb-5">
