@@ -2,7 +2,7 @@
   {
     "id" : "6620f45d8d5aa18b859bcc7f",
     "image" : "https://www.creativeitinstitute.com/images/course/course_1663052056.jpg",
-    "description" : "Already we have served our 200 clients",
+    "description" : "Experiences: The Art & Science",
     "title" : "Web Development",
     "link" : "View Details",
     "items" : ["Product", "DevSecOps", "Reverse Engineering"],
@@ -14,7 +14,7 @@
   {
     "id" : "6620f45dabe3eb0a8f209473",
     "image" : "https://media.geeksforgeeks.org/wp-content/uploads/20231017114110/WEB-DESIGN-copy.webp",
-    "description" : "Already we have served our 1000 clients",
+    "description" : "Experiences: The Essence of Design",
     "title" : "Web Design",
     "link" : "View Details",
     "items" : ["Product", "DevSecOps", "Reverse Engineering"],
@@ -26,7 +26,7 @@
   {
     "id" : "6620f45d1df7c1ecc2a37c9b",
     "image" : "https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg",
-    "description" : "Already we have served our 100 clients",
+    "description" : "Data: Digital Assets from Threats",
     "title" : "cyber security",
     "link" : "View Details",
     "items" : ["Product", "DevSecOps", "Reverse Engineering"],
