@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import './ServiceDetails.css'
 import contactForm from '../../../../public/contactImg.png'
+import axios from 'axios';
 
 const ServiceDetails = () => {
 
@@ -23,18 +24,29 @@ const ServiceDetails = () => {
     })
   },[id])
 
-  const userContact = (event) => {
+  const userContactForm = (event) => {
     event.preventDefault();
     const form = event.target;
     const name = form.name.value;
     const email = form.email.value;
-    const subject = form.subject.value;
-    const phone = form.phone.value;
-    const message = form.message.value;
-    const userData = {name, email, phone, subject, message}
-    console.log(userData)
+    const service = form.service.value;
+    const phoneNumber = form.phoneNumber.value;
+    const text = form.text.value;
+    const contactData = {name, email, service, phoneNumber, text}
+
+
+    axios.post('https://web.xcode.com.bd/api/v1/contact/', contactData)
+    .then(function (response) {
+      // console.log(response);
+      alert(response.data)
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
 
     form.reset();
+
+
   }
 
 
@@ -77,7 +89,7 @@ const ServiceDetails = () => {
           <div className="md:flex-1">
             <img src={contactForm} className="h-[225px] md:h-full w-full sm:h-[310px]"></img>
           </div>
-          <form onSubmit={userContact} className="space-y-5 p-2 md:p-5 md:flex-1">
+          <form onSubmit={userContactForm} className="space-y-5 p-2 md:p-5 md:flex-1">
             <div className="space-y-4 mb-2">
               <h1 className="text-xl sm:text-2xl md:text-xl lg:text-4xl font-bold">Get in Touch</h1>
               <p className="text-gray-500 text-sm sm:text-base md:text-base lg:text-lg">Fill out the Form below, and We'll get back to you as soon as possible</p>
@@ -87,11 +99,11 @@ const ServiceDetails = () => {
               <input className='border-slate-100 focus:border-cyan-400 border-b-2 w-full  outline-none pb-3' type="email" placeholder='Your email here' name="email"></input>
             </div>
             <div className='form-control grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-3 sm:gap-5 md:gap-10'>
-              <input className='border-slate-100 focus:border-cyan-400 border-b-2 w-full  outline-none pb-3' type="text" placeholder='Your subject here' name="subject" defaultValue={details.title}></input>
-              <input className='border-slate-100 focus:border-cyan-400 border-b-2 w-full  outline-none pb-3' type="number" placeholder='Your phone here' name="phone"></input>
+              <input className='border-slate-100 focus:border-cyan-400 border-b-2 w-full  outline-none pb-3' type="text" placeholder='Your subject here' name="service" defaultValue={details.title}></input>
+              <input className='border-slate-100 focus:border-cyan-400 border-b-2 w-full  outline-none pb-3' type="number" placeholder='Your phone here' name="phoneNumber"></input>
             </div>
             <div className='form-control grid grid-cols-1 gap-3'>
-              <textarea className='border-slate-100 focus:border-cyan-400 border-b-2 w-full pb-3 lg:pb-5 h-full sm:h-28 md:h-32 lg:h-36 outline-none' type="text" placeholder='Your Message here' name="message"></textarea>
+              <textarea className='border-slate-100 focus:border-cyan-400 border-b-2 w-full pb-3 lg:pb-5 h-full sm:h-28 md:h-32 lg:h-36 outline-none' type="text" placeholder='Your Message here' name="text"></textarea>
             </div>
             <input type="submit" value="Submit" className='bg-teal-500 hover:bg-teal-600 shadow-lg shadow-teal-500/50 rounded-md font-bold text-white p-2 lg:p-3 md:w-24 lg:w-32 w-full'></input>
           </form>

@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="container mx-auto">
           <div className="flex justify-between h-16 items-center px-8">
             {/* logo start */}
-            <h1><Link to="/"><h1 className='text-gray-400 md:text-xl lg:text-2xl font-bold'>Software House</h1></Link></h1>
+            <h1><Link to="/"><h1 className='text-gray-400 md:text-xl lg:text-2xl font-bold'>Xcode</h1></Link></h1>
             {/* logo end */}
             {/* link start */}
             <ul className="md:flex gap-10">
