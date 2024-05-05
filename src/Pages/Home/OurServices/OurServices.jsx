@@ -14,7 +14,7 @@ const OurServices = () => {
 
   // useEffect fetch the data from server
   useEffect(() => {
-    fetch('services.json')
+    fetch('https://web.xcode.com.bd/api/v1/service/')
     .then((res) => res.json())
     .then((data) => setService(data))
   },[])
@@ -40,7 +40,8 @@ const OurServices = () => {
               {
               service.map((service, index) => <ServiceData 
               service={service}
-              key={service._id}
+              // key={service._id}
+              key={index}
               index={index}
               ></ServiceData>)
               }
