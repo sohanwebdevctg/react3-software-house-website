@@ -21,8 +21,7 @@ const Home = () => {
       <WhyWeAre></WhyWeAre>
       {/* whyWeAre section end */}
       {/* demo */}
-      <OurDemo />
-
+      <OurDemo /> 
       {/* typeOfService section start */}
       <TypeOfService></TypeOfService>
       {/* typeOfService section end */}
