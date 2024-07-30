@@ -6,22 +6,23 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
 
+  // toggle button state
   const [show, setShow] = useState(false)
 
   return (
     <div>
     {/* desktop section start */}
-      <div className=" hidden md:block  bg-indigo-50 fixed z-10 top-0 left-0 right-0 w-full">
-        <div className="container mx-auto">
-          <div className="flex justify-between h-16 items-center px-8">
+      <div className="hidden sm:block  bg-indigo-50 fixed z-10 top-0 left-0 right-0 w-full">
+        <div className="container mx-auto px-5">
+          <div className="flex justify-between h-16 xl:h-20 items-center px-8">
             {/* logo start */}
-            <h1><Link to="/"><h1 className='text-gray-400 md:text-xl lg:text-2xl font-bold'>Xcode</h1></Link></h1>
+            <h1><Link to="/"><h1 className='text-gray-400 sm:text-lg md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl font-bold italic'>SofHouse</h1></Link></h1>
             {/* logo end */}
             {/* link start */}
-            <ul className="md:flex gap-10">
-              <li><NavLink to="/" className={({ isActive}) => isActive ? "text-gray-400 md:text-base lg:text-lg font-semibold" : "text-black md:text-base lg:text-lg" }>Home</NavLink></li>
-              <li><NavLink to="/services" className={({ isActive}) => isActive ? "text-gray-400 md:text-base lg:text-lg font-semibold" : "text-black md:text-base lg:text-lg" }>Services</NavLink></li>
-              <li><NavLink to="/contact" className={({ isActive}) => isActive ? "text-gray-400 md:text-base lg:text-lg font-semibold" : "text-black md:text-base lg:text-lg" }>Contact</NavLink></li>
+            <ul className="sm:flex gap-10">
+              <li><NavLink to="/" className={({ isActive}) => isActive ? "text-gray-400 sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-semibold" : "text-black sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-xl" }>Home</NavLink></li>
+              <li><NavLink to="/services" className={({ isActive}) => isActive ? "text-gray-400 sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-semibold" : "text-black sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-xl" }>Services</NavLink></li>
+              <li><NavLink to="/contact" className={({ isActive}) => isActive ? "text-gray-400 sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-semibold" : "text-black sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-xl" }>Contact</NavLink></li>
             </ul>
             {/* link end */}
           </div>
@@ -29,11 +30,11 @@ const Navbar = () => {
       </div>
       {/* desktop section end */}
       {/* mobile section start */}
-      <div className='md:hidden'>
+      <div className='sm:hidden'>
         {/* title section start */}
         <div className='bg-indigo-50 h-16 flex items-center px-4 justify-between relative'>
           <div>
-            <Link to="/"><h1 className='text-lg font-bold text-gray-400'>Software House</h1></Link>
+            <Link to="/"><h1 className='text-lg font-bold text-gray-400 italic'>SofHouse</h1></Link>
           </div>
           <div>
             {
@@ -43,17 +44,17 @@ const Navbar = () => {
         </div>
         {/* title section end */}
         {/* navItem section start */}
-        <div className={`absolute ${show ? 'right-0': 'right-[1000px]'} z-10 bg-indigo-50 w-full duration-700`}>
+        <div className={`absolute ${show ? 'right-0': 'right-[1000px]'} z-10 bg-indigo-50 w-full duration-700 h-full bg-opacity-95`}>
           {/* link section start */}
-            <div className='md:flex gap-5 text-center'>
+            <div className='md:flex gap-5 text-center space-y-5'>
               <p className='my-2'>
-                <NavLink to="/" className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Home</NavLink>
+                <NavLink to="/" onClick={() => {setShow(false)}} className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Home</NavLink>
               </p>
               <p className='my-2'>
-                <NavLink to="/services" className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Services</NavLink>
+                <NavLink to="/services" onClick={() => {setShow(false)}} className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Services</NavLink>
               </p>
               <p className='my-2'>
-                <NavLink to="/contact" className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Contact</NavLink>
+                <NavLink to="/contact" onClick={() => {setShow(false)}} className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Contact</NavLink>
               </p>
             </div>
         </div>
