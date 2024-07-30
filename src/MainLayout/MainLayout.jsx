@@ -10,7 +10,9 @@ const MainLayout = () => {
       <Navbar></Navbar>
       {/* navbar section end */}
       {/* main content start */}
-      <Outlet></Outlet>
+      <div className="h-full">
+        <Outlet></Outlet>
+      </div>
       {/* main content end */}
       {/* footer section start */}
       <Footer></Footer>

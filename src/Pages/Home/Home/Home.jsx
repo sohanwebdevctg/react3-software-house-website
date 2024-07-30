@@ -1,34 +1,35 @@
-
-import Brands from '../Brands';
-import TopSection from '../TopSection'
+import Banner from '../Banner/Banner';
 import WhyWeAre from './../WhyWeAre';
+import OurDemo from '../../../components/OurDemo';
+import Brands from '../Brands';
 import OurServices from '../OurServices/OurServices';
 import Title from '../../../components/Title';
 import TypeOfService from '../TypeOfService/TypeOfService';
-import OurDemo from '../../../components/OurDemo';
 
 
 const Home = () => {
   return (
     <>
       {/* title section start */}
-      <Title title={'Home'}></Title>
+        <Title title={'Home'}></Title>
       {/* title section end */}
-      {/* top section start */}
-      <TopSection></TopSection>
-      {/* top section end */}
+      {/* banner section start */}
+        <Banner></Banner>
+      {/* banner section end */}
       {/* whyWeAre section start */}
-      <WhyWeAre></WhyWeAre>
+        <WhyWeAre></WhyWeAre>
       {/* whyWeAre section end */}
       {/* demo */}
-      <OurDemo /> 
+        <OurDemo /> 
       {/* typeOfService section start */}
-      <TypeOfService></TypeOfService>
+        <TypeOfService></TypeOfService>
       {/* typeOfService section end */}
       {/* ourServices section start */}
-      <OurServices></OurServices>
+        <OurServices></OurServices>
       {/* ourServices section end */}
-      <Brands></Brands>
+      {/* brands section start */}
+        <Brands></Brands>
+      {/* brands section end */}
     </>
   );
 };
