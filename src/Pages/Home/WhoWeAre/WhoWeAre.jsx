@@ -1,4 +1,3 @@
-// import logo from '../../assets/images/google-logo.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import lottie from "lottie-web";
@@ -7,10 +6,10 @@ import { defineElement } from "@lordicon/element";
 defineElement(lottie.loadAnimation);
 AOS.init();
 
-const WhyWeAre = () => {
-    return (
-        <>
-            <section className="overflow-hidden h-2/6  pt-3 my-3 md:my-16" >
+const WhoWeAre = () => {
+  return (
+    <>
+      <section className="overflow-hidden h-2/6  pt-3 my-3 md:my-16" >
                 <div className="container mx-auto ">
                     <div className="lg:flex items-center justify-center gap-10  mb-12">
                         <div className="flex justify-center items-center">
@@ -66,8 +65,8 @@ const WhyWeAre = () => {
                     </div>
                 </div>
             </section>
-        </>
-    )
-}
+    </>
+  );
+};
 
-export default WhyWeAre
+export default WhoWeAre;
