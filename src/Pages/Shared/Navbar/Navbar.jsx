@@ -33,30 +33,35 @@ const Navbar = () => {
       <div className='sm:hidden'>
         {/* title section start */}
         <div className='bg-indigo-50 h-16 flex items-center px-4 justify-between relative'>
+          {/* logo section start */}
           <div>
             <Link to="/"><h1 className='text-lg font-bold text-gray-400 italic'>SofHouse</h1></Link>
           </div>
+          {/* logo section end */}
+          {/* button section start */}
           <div>
             {
               show ? <button onClick={() => {setShow(false)}}><IoClose className='text-gray-500 w-5 h-5'>close</IoClose></button> : <button onClick={() => {setShow(true)}}><GiHamburgerMenu className='text-gray-400 w-5 h-5'>open</GiHamburgerMenu></button>
             }
           </div>
+          {/* button section end */}
         </div>
         {/* title section end */}
         {/* navItem section start */}
         <div className={`absolute ${show ? 'right-0': 'right-[1000px]'} z-10 bg-indigo-50 w-full duration-700 h-full bg-opacity-95`}>
-          {/* link section start */}
-            <div className='md:flex gap-5 text-center space-y-5'>
-              <p className='my-2'>
+            {/* link section start */}
+            <ul className='md:flex gap-5 text-center space-y-5'>
+              <li className='my-2'>
                 <NavLink to="/" onClick={() => {setShow(false)}} className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Home</NavLink>
-              </p>
-              <p className='my-2'>
+              </li>
+              <li className='my-2'>
                 <NavLink to="/services" onClick={() => {setShow(false)}} className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Services</NavLink>
-              </p>
-              <p className='my-2'>
+              </li>
+              <li className='my-2'>
                 <NavLink to="/contact" onClick={() => {setShow(false)}} className={({ isActive}) => isActive ? "text-gray-400 text-base font-semibold" : "text-black text-base" }>Contact</NavLink>
-              </p>
-            </div>
+              </li>
+            </ul>
+            {/* link section end */}
         </div>
         {/* navItem section end */}
       </div>
