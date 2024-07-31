@@ -9,65 +9,71 @@ AOS.init();
 const WhoWeAre = () => {
   return (
     <>
-      <section className="overflow-hidden h-2/6  pt-3 my-3 md:my-16">
+      <section className="overflow-hidden py-5 my-5 md:my-16">
         <div className="container mx-auto px-5">
-          <div className="sm:flex sm:items-center sm:justify-center">
+          <div className="sm:flex sm:items-center sm:justify-center sm:gap-2 lg:px-5">
             {/* left section start */}
-            <div className="flex justify-center items-center sm:w-1/2">
-              <div className="mx-1 sm:mx-2" data-aos="fade-right">
-                <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-44   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
+            <div className="flex justify-center items-center sm:w-1/2 gap-1">
+            {/* item1 section start */}
+              <div className="mx-1" data-aos="fade-right">
+                <div className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                   <lord-icon
                     src="https://cdn.lordicon.com/wuvorxbv.json"
                     trigger="hover"
                   ></lord-icon>
-                  <h3 className="font-semibold text-[10px] sm:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold">
+                  <h3 className="font-semibold text-[8px] sm:text-[6px] md:text-[9px] lg:text-[10px] xl:text-xs 2xl:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold">
                     Secure Software Solutions
                   </h3>
                 </div>
               </div>
-              <div className="mx-0 sm:mx-2">
+              {/* item1 section end */}
+              {/* item2 section start */}
+              <div className="mx-1">
                 <div className="mb-5" data-aos="fade-down">
-                  <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-44   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
+                  <div className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                     <lord-icon
                       src="https://cdn.lordicon.com/ppsqwkvn.json"
                       trigger="hover"
                     ></lord-icon>
-                    <h3 className="font-semibold text-[10px] sm:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold">
+                    <h3 className="font-semibold text-[8px] sm:text-[6px] md:text-[9px] lg:text-[10px] xl:text-xs 2xl:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold">
                       Proactive Cyber Protection
                     </h3>
                   </div>
                 </div>
                 <div className="mt-5" data-aos="fade-up">
-                  <div className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-44   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
+                  <div className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                     <lord-icon
                       src="https://cdn.lordicon.com/abwrkdvl.json"
                       trigger="hover"
                     ></lord-icon>
 
-                    <h3 className="font-semibold text-[10px] sm:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold ">
+                    <h3 className="font-semibold text-[8px] sm:text-[6px] md:text-[9px] lg:text-[10px] xl:text-xs 2xl:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold ">
                       Advanced Security Innovations
                     </h3>
                   </div>
                 </div>
               </div>
-              <div className="m-1 sm:mx-2">
+              {/* item2 section end */}
+              {/* item3 section start */}
+              <div className="m-1">
                 <div
-                  className="shadow-lg rounded p-1 sm:p-3 text-center sm:2/6 sm:2/6 sm:w-32 md:w-40 lg:w-36 xl:w-40 2xl:w-44   hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50"
+                  className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50"
                   data-aos="fade-left"
                 >
                   <lord-icon
                     src="https://cdn.lordicon.com/lbjtvqiv.json"
                     trigger="hover"
                   ></lord-icon>
-                  <h3 className="font-semibold text-[10px] sm:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold">
+                  <h3 className="font-semibold text-[8px] sm:text-[6px] md:text-[9px] lg:text-[10px] xl:text-xs 2xl:text-sm md:font-bold xl:font-bold lg:font-bold 2xl:font-bold">
                     Cutting-edge Software Security
                   </h3>
                 </div>
               </div>
+              {/* item3 section end */}
             </div>
             {/* left section end */}
             {/* right section start */}
-            <div className="sm:w-1/2 mt-5 py-5">
+            <div className="sm:w-1/2 mt-5 sm:mt-0 py-5">
             {/* title section start */}
               <h3 className="inline-block text-lg sm:text-sm md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-extrabold text-slate-900 tracking-tight "style={{ textShadow: "2px 2px 5px rgb(99 102 241 / 0.5)" }}>Who We Are?</h3>
             {/* title section end */}
@@ -88,7 +94,6 @@ const WhoWeAre = () => {
               {/* button section end */}
             </div>
             {/* right section end */}
-
           </div>
         </div>
       </section>
