@@ -50,7 +50,7 @@ const Brands = () => {
           {/* top section start */}
           <div className="pb-4">
             {/* title section start */}
-            <h2 className="text-center text-lg sm:text-sm md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl  font-bold tracking-tight text-gray-900 mb-3" style={{ textShadow: "2px 2px 5px rgb(99 102 241 / 0.5)" }}>Trusted by <span className="text-blue-600/100">open</span>, aired out of companies
+            <h2 className="text-center text-lg sm:text-sm md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold tracking-tight text-gray-900 mb-3" style={{ textShadow: "2px 2px 5px rgb(99 102 241 / 0.5)" }}>Trusted by <span className="text-blue-600/100">open</span>, aired out of companies
             </h2>
             {/* title section end */}
             {/* description section start */}

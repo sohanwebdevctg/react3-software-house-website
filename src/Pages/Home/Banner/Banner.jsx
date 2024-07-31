@@ -14,7 +14,7 @@ const Banner = () => {
               <h2 className="text-lg sm:text-sm md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mb-3 font-bold tracking-tight text-gray-900 " style={{ textShadow: '2px 2px 5px rgb(99 102 241 / 0.5)' }}>Easy to manage our <span className='text-blue-600/100'>project</span></h2>
               {/* title section end */}
               {/* description section star */}
-              <p className="text-sm sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl">Simplify project management with our streamlined solutions. We offer efficient tools and support to ensure smooth project execution, empowering your team to succeed effortlessly.</p>
+              <p className="text-sm sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-justify">Simplify project management with our streamlined solutions. We offer efficient tools and support to ensure smooth project execution, empowering your team to succeed effortlessly.</p>
               {/* description section end */}
               {/* button section start */}
               <button className="group relative h-7 sm:h-7 md:h-8 lg:h-10 xl:h-11 2xl:h-13 w-20 sm:w-20 md:w-[86px] lg:w-24 xl:w-28 2xl:w-32 overflow-hidden rounded-lg bg-white text-lg shadow mt-2 sm:mt-4">

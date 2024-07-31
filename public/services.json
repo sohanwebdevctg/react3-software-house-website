@@ -1,38 +1,52 @@
 [
   {
-    "id": "659d28122f83892709e7b717",
-    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-    "name" : "Web Development",
-    "details" : "Our Web Development service is tailored to businesses seeking to establish or enhance their online presence. We specialize in crafting dynamic websites and web applications that engage users and drive results. Our expertise spans frontend design, backend programming, and database management, ensuring functionality, performance, and scalability. With a focus on responsive design and security, we deliver solutions that look great on all devices and safeguard against cyber threats. Collaborative and iterative, our process prioritizes client objectives and feedback, resulting in timely, effective, and impactful web solutions."
+    "id": 1,
+    "title" : "Graphic & Multimedia",
+    "details" : "Digital fusion of images, text, audio, video, and interactivity for immersive, engaging, and interactive communication"
   },
   {
-    "id": "659d2812cc0ad47de2c0d763",
-    "image" : "https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg",
-    "name" : "Research and Content Planing",
-    "details" : "Building Foundations, Crafting Narratives: The Art of Strategic Research and Content Planning."
+    "id": 2,
+    "title" : "Web & Software",
+    "details" : "Digital platform connecting users, information, and services through interconnected networks. Computer programs executing tasks, automating processes, and providing solutions for users"
   },
   {
-    "id": "659d28125454dc3753f09dd1",
-    "image" : "https://st3.depositphotos.com/1021722/33394/i/450/depositphotos_333943612-stock-photo-beautiful-nature-countryside-landscape-spring.jpg",
-    "name" : "Publishing and Execution",
-    "details" : "From Vision to Reality: Mastering the Art of Publishing and Flawless Execution."
+    "id": 3,
+    "title" : "Digital Marketing",
+    "details" : "Digital marketing promotes products/services online through search engines, social media, email, and websites to attract and engage customers"
   },
   {
-    "id": "659d28122db1091a64bb7408",
-    "image" : "https://www.w3schools.com/css/img_5terre.jpg",
-    "name" : "Product Prototyping",
-    "details" : "Precision in Every Detail: Bringing Your Vision to Life through Seamless Final Product Delivery."
+    "id": 4,
+    "title" : "3D Animation & Visualization",
+    "details" : "3D animation brings objects to life through sequenced images, while visualization creates static or dynamic 3D representations for understanding and communication"
   },
   {
-    "id": "659d2812e6e8968cb27958c3",
-    "image" : "https://pe-images.s3.amazonaws.com/type/effects/image-in-text/new/hawaii.jpg",
-    "name" : "Software Development",
-    "details" : "Our Software Development service offers tailored solutions to meet your business needs. From web and mobile applications to desktop software and enterprise solutions, we provide efficient and innovative development using the latest technologies. With a focus on collaboration and quality, we deliver high-performance software that drives growth and streamlines operations."
+    "id": 5,
+    "title" : "Cyber Security",
+    "details" : "Cybersecurity protects digital assets, infrastructure, and data from unauthorized access, theft, damage, or disruption through prevention, detection, and response measures"
   },
   {
-    "id": "659d281289964d4ac5fcb3c4",
-    "image" : "https://img.freepik.com/free-photo/spooky-tree-against-big-moon_1048-2912.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705190400&semt=ais",
-    "name" : "Deliver the Final Product",
-    "details" : "Crafting Excellence: Your Vision Realized through Impeccable Final Product Delivery."
+    "id": 6,
+    "title" : "Networking & Technology",
+    "details" : "Networking interconnects devices for communication, data sharing, and resource access, while technology drives innovation, problem-solving, and efficiency across various domains"
+  },
+  {
+    "id": 7,
+    "title" : "Film & Media",
+    "details" : "Film and Media encompasses storytelling through moving images, capturing and distributing visual narratives across various platforms for entertainment, information"
+  },
+  {
+    "id": 8,
+    "title" : "Communication",
+    "details" : "It is the dynamic exchange of information, ideas, and emotions between individuals or groups through verbal, nonverbal, and digital channels"
+  },
+  {
+    "id": 9,
+    "title" : "Robotics & Automation",
+    "details" : "Integration of intelligent machines and automated systems to perform tasks with precision, speed, and efficiency, revolutionizing industries and enhancing human capabilities"
+  },
+  {
+    "id": 10,
+    "title" : "Cloud Computing",
+    "details" : "Delivers on-demand computing resources, including storage, networks, and software, accessible via the internet, offering scalability, cost-efficiency, and flexibility"
   }
 ]
