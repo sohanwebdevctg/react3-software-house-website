@@ -65,117 +65,117 @@ const Brands = () => {
             {/* tab button section start */}
             <ul className="flex justify-between items-center gap-3 sm:gap-6 md:text-8 lg:gap-10 xl:gap-12 2xl:gap-14 xl:px-5">
               {/* working with start */}
-              <li onClick={() => updateBtn(1)} className={`${toggle === 1 ? 'text-blue-500 border-blue-500' : 'text-black border-slate-300'} text-center mx-auto text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-semibold border-b-2  w-1/2 pb-2`}>Working with</li>
+              <li onClick={() => updateBtn(1)} className={`${toggle === 1 ? 'text-blue-500 border-blue-500' : 'text-black border-slate-300'} text-center mx-auto text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl font-semibold border-b-2  w-1/2 pb-2`}>Working with</li>
               {/* working with end */}
               {/* members of start */}
-              <li onClick={() => updateBtn(2)} className={`${toggle === 2? 'text-blue-500 border-blue-500' : 'text-black border-slate-300'}  text-center mx-auto text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-semibold border-b-2 w-1/2 pb-2`}>Members of</li>
+              <li onClick={() => updateBtn(2)} className={`${toggle === 2? 'text-blue-500 border-blue-500' : 'text-black border-slate-300'}  text-center mx-auto text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl font-semibold border-b-2 w-1/2 pb-2`}>Members of</li>
               {/* members of end */}
               {/* our concerns start */}
-              <li onClick={() => updateBtn(3)} className={`${toggle === 3 ? 'text-blue-500 border-blue-500' : 'text-black border-slate-300'}  text-center mx-auto text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-semibold border-b-2 w-1/2 pb-2`}>Our Concerns</li>
+              <li onClick={() => updateBtn(3)} className={`${toggle === 3 ? 'text-blue-500 border-blue-500' : 'text-black border-slate-300'}  text-center mx-auto text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl font-semibold border-b-2 w-1/2 pb-2`}>Our Concerns</li>
               {/* our concerns end */}
             </ul>
             {/* tab button section end */}
             {/* item section start */}
-            <div className='my-5 hidden'>
+            <div className='my-5'>
               {/* working with start */}
-              <ul className={`${toggle === 1 ? 'block' : 'hidden'} grid grid-cols-2 sm:grid-cols-5 gap-12`}>
+              <ul className={`${toggle === 1 ? 'block' : 'hidden'} grid grid-cols-3 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 gap-5 sm:gap-7 md:gap-9 lg:gap-10 xl:gap-12 2xl:gap-12`}>
                 <li>
-                  <img src={wrk1} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk1} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk2} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk2} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk3} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk3} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk4} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk4} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk5} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk5} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk6} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk6} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk7} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk7} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk8} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk8} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk9} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk9} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={wrk10} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={wrk10} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
               </ul>
               {/* working with end */}
               {/* members of start */}
-              <ul className={`${toggle === 2 ? 'block' : 'hidden'} grid grid-cols-2 sm:grid-cols-5 gap-12`}>
+              <ul className={`${toggle === 2 ? 'block' : 'hidden'} grid grid-cols-3 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 gap-5 sm:gap-7 md:gap-9 lg:gap-10 xl:gap-12 2xl:gap-12`}>
                 <li>
-                  <img src={mm1} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm1} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm2} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm2} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm3} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm3} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm4} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm4} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm5} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm5} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm6} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm6} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm7} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm7} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm8} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm8} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm9} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm9} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={mm10} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={mm10} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
               </ul>
               {/* members of end */}
               {/* our concerns start */}
-              <ul className={`${toggle === 3 ? 'block' : 'hidden'} grid grid-cols-2 sm:grid-cols-5 gap-12`}>
+              <ul className={`${toggle === 3 ? 'block' : 'hidden'} grid grid-cols-3 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 gap-5 sm:gap-7 md:gap-9 lg:gap-10 xl:gap-12 2xl:gap-12`}>
                 <li>
-                  <img src={con1} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con1} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con2} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con2} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con3} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con3} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con4} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con4} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con5} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con5} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con6} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con6} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con7} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con7} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con8} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con8} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con9} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con9} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 xl:h-24 2xl:w-3/4 2xl:h-28 mx-auto'></img>
                 </li>
                 <li>
-                  <img src={con10} className='xl:w-3/4 xl:h-24 mx-auto'></img>
+                  <img src={con10} className='w-3/4 h-10 sm:w-4/5 sm:h-14 md:w-5/6 md:h-16 lg:w-3/4 lg:h-20 xl:w-3/4 2xl:w-3/4 2xl:h-28 xl:h-24 mx-auto'></img>
                 </li>
               </ul>
               {/* our concerns end */}
