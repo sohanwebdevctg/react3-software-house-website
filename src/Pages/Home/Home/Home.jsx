@@ -1,10 +1,10 @@
 import Banner from '../Banner/Banner';
 import WhoWeAre from '../WhoWeAre/WhoWeAre';
 import OurDemo from '../../../components/OurDemo';
-import Brands from '../Brands';
 import OurServices from '../OurServices/OurServices';
 import Title from '../../../components/Title';
 import TypeOfService from '../TypeOfService/TypeOfService';
+import Brands from '../Brands/Brands';
 
 
 
