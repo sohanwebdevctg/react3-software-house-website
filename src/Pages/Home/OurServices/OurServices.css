@@ -1,6 +1,7 @@
 .serviceCon{
   overflow-y: scroll;
   scroll-behavior: smooth;
+  height: 250px;
 }
 
 .serviceCon::-webkit-scrollbar {
@@ -26,3 +27,49 @@
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
+
+/* media screen section start */
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .serviceCon{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 280px;
+  }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+  .serviceCon{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 265px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .serviceCon{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 325px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .serviceCon{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 370px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .serviceCon{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .serviceCon{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 500px;
+  }
+}
+/* media screen section end */
