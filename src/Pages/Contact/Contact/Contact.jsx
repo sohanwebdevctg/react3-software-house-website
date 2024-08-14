@@ -33,7 +33,7 @@ const Contact = () => {
           </div>
         </div>
         <div
-          className="h-[580px] sm:h-64 md:h-72 lg:h-80 xl:h-80 2xl:h-80 w-full "
+          className="h-[580px] sm:h-[280px] md:h-[270px] lg:h-72 xl:h-[290px] 2xl:h-[295x] w-full "
           style={{ height: "revert-layer" }}
         ></div>
 

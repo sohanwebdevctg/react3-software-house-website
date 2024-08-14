@@ -5,7 +5,7 @@ const OurTeam = () => {
     <div className='px-5'>
       <section className="w-full h-2/6">
         <div className="container mx-auto px-5 bg-gradient-to-br from-indigo-50 to-cyan-50 md:mt-10 rounded-3xl">
-          <div className="sm:flex sm:justify-between sm:items-center px-5 py-10 sm:px-4 sm:py-8 md:px-3 md:py-7 lg:px-4 lg:py-9 xl:px-6 xl:py-12 2xl:px-8 2xl:py-14 gap-10 2xl:gap-16">
+          <div className="sm:flex sm:justify-between sm:items-center px-3 py-6 sm:px-4 sm:py-8 md:px-3 md:py-7 lg:px-4 lg:py-9 xl:px-6 xl:py-12 2xl:px-8 2xl:py-14 gap-10 2xl:gap-16">
             {/* left item start */}
             <div className='sm:flex-1'>
               {/* title section start */}
