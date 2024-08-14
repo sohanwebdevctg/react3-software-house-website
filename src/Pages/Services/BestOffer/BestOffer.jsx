@@ -26,8 +26,10 @@ const BestOffer = () => {
             <div className='ml-3 lg:ml-0'>
               {/* title section start */}
               <h2 className="text-[22px] sm:text-xl md:text-[27px] lg:text-4xl xl:text-6xl font-extrabold tracking-tight text-gray-900 mb-1 lg:mb-3" style={{ textShadow:'2px 2px 5px rgb(99 102 241 / 0.5)' }}>We Gave The Best Offer</h2>
-              <h2 className="text-lg sm:text-xs md:text-sm lg:text-xl xl:text-3xl 2xl:text-3xl mb-3 font-bold tracking-tight text-gray-900 " style={{ textShadow: '2px 2px 5px rgb(99 102 241 / 0.5)' }}>Get Special Offer Until <span className='text-blue-600/100'><br className="sm:hidden"/>30 December 2022</span></h2>
               {/* title section end */}
+              {/* description section start */}
+              <h2 className="text-lg sm:text-xs md:text-sm lg:text-xl xl:text-3xl 2xl:text-3xl mb-3 font-bold tracking-tight text-gray-900 " style={{ textShadow: '2px 2px 5px rgb(99 102 241 / 0.5)' }}>Get Special Offer Until <span className='text-blue-600/100'><br className="sm:hidden"/>30 December 2022</span></h2>
+              {/* description section end */}
             </div>
             {/* offers section start */}
             <div className='grid grid-cols-1 gap-3 sm:gap-2 md:gap-2 lg:gap-4 xl:gap-5 2xl:gap-6 mt-4 md:mt-1 lg:mt-3'>

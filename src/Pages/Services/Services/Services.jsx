@@ -5,11 +5,7 @@ import OurProject from "../OurProject/OurProject";
 import Title from './../../../components/Title';
 
 
-
-
-
 const Services = () => {
-
 
 
   return (

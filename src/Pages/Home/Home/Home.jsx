@@ -1,10 +1,10 @@
 import Banner from '../Banner/Banner';
 import WhoWeAre from '../WhoWeAre/WhoWeAre';
-import OurDemo from '../../../components/OurDemo';
 import OurServices from '../OurServices/OurServices';
 import Title from '../../../components/Title';
 import TypeOfService from '../TypeOfService/TypeOfService';
 import Brands from '../Brands/Brands';
+import OurTeam from '../OurTeam/OurTeam';
 
 
 
@@ -20,8 +20,9 @@ const Home = () => {
       {/* whoWeAre section start */}
         <WhoWeAre></WhoWeAre>
       {/* whoWeAre section end */}
-      {/* demo */}
-        <OurDemo /> 
+      {/* ourTeam section start */}
+      <OurTeam></OurTeam>
+      {/* ourTeam section end */}
       {/* typeOfService section start */}
         <TypeOfService></TypeOfService>
       {/* typeOfService section end */}
