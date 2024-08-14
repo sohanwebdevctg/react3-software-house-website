@@ -1,19 +1,19 @@
 [
   {
     "id": "659e7b9e6912396173d16ef5",
-    "logo": "https://www.svgrepo.com/show/69341/apple-logo.svg",
+    "logo": "../public/offer/1.png",
     "title": "Flexibility",
     "description": "Elevate your online presence with our bespoke web development"
   },
   {
     "id": "659e7b9e5796cac5517b7ec7",
-    "logo": "https://www.svgrepo.com/show/69341/apple-logo.svg",
+    "logo": "../public/offer/2.png",
     "title": "24hrs Costumers Service",
     "description": "Elevate your online presence with our bespoke web development"
   },
   {
     "id": "659e7b9e8d6f0e21adac8e14",
-    "logo": "https://www.svgrepo.com/show/69341/apple-logo.svg",
+    "logo": "../public/offer/3.png",
     "title": "Fist And Reliable",
     "description": "Elevate your online presence with our bespoke web development"
   }

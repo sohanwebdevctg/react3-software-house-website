@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="container mx-auto px-5">
           <div className="flex justify-between h-16 xl:h-20 items-center px-8">
             {/* logo start */}
-            <h1><Link to="/"><h1 className='text-gray-400 sm:text-lg md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl font-bold italic'>SofHouse</h1></Link></h1>
+            <h1><Link to="/"><p style={{ textShadow: '2px 2px 5px rgb(99 102 241 / 0.5)' }} className='text-blue-600/100 sm:text-lg md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl font-bold italic tracking-tight'>SofHouse</p></Link></h1>
             {/* logo end */}
             {/* link start */}
             <ul className="sm:flex gap-10">
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className='bg-indigo-50 h-16 flex items-center px-4 justify-between relative'>
           {/* logo section start */}
           <div>
-            <Link to="/"><h1 className='text-lg font-bold text-gray-400 italic'>SofHouse</h1></Link>
+            <Link to="/"><h1 style={{ textShadow: '2px 2px 5px rgb(99 102 241 / 0.5)' }} className='text-lg font-bold text-blue-600/100 italic tracking-tight'>SofHouse</h1></Link>
           </div>
           {/* logo section end */}
           {/* button section start */}
