@@ -1,22 +1,30 @@
-import './Offer.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import "./Offer.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const Offer = ({offer}) => {
+const Offer = ({ offer }) => {
+  const { logo, description, title } = offer;
 
-  const {logo, description, title} = offer;
-  
   return (
-    <div data-aos="fade-right" className='sm:flex items-center gap-5 p-4 sm:p-5 md:p-2 lg:p-6 rounded-xl m-2 lg:m-0 shadow-lg hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600'>
+    <div
+      data-aos="fade-right"
+      className="flex items-center gap-3 xl:gap-1 p-4 sm:p-3 md:p-3 lg:p-4 xl:p-5 2xl:p-6 rounded-xl shadow-lg hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600"
+    >
       {/* logo section start */}
-      <div className='flex-1 w-[18%] sm:w-[10%] md:w-[25%] lg:w-[10%] mx-auto'>
-        <img className='w-[50%] sm:w-[80%] md:w-[70%] lg:w-[100%] mx-auto' src={logo}></img>
+      <div className="w-[15%]">
+        <img className="w-10 h-12 sm:w-8 sm:h-8 md:w-12 md:h-12 lg:w-11 lg:h-11 xl:w-11 xl:h-11 2xl:w-12 2xl:h-12 mx-auto" src={logo}></img>
       </div>
       {/* logo section end */}
       {/* title & description start */}
-      <div className='flex-2 sm:w-[85%] md:w-[75%] lg:w-[85%] text-center sm:text-left mt-2 sm:mt-0'>
-        <h4 className='text-base sm:text-2xl md:text-sm lg:text-2xl font-bold'>{title}</h4>
-        <p className='text-xs sm:text-lg md:text-xs lg:text-base'>{description}</p>
+      <div className="w-[85%]">
+        {/* title section start */}
+        <h3 className="text-xs sm:text-[13px] md:text-sm lg:text-lg xl:text-2xl 2xl:text-2xl font-bold text-gray-900" style={{ textShadow: "2px 2px 5px rgb(99 102 241 / 0.5)" }}>{title}</h3>
+        {/* title section end */}
+        {/* description section start */}
+        <p className="text-xs sm:text-[11px] md:text-xs lg:text-sm xl:text-[17px] 2xl:text-xl text-gray-700 italic text-justify mt-1">
+          {description}
+        </p>
+        {/* description section end */}
       </div>
       {/* title & description end */}
       <div></div>
