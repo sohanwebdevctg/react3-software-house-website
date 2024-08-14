@@ -1,18 +1,9 @@
 import { Link } from 'react-router-dom';
 import formImg from '../../../public/formImg.png';
 import formlogo from '../../../public/formlogo.png';
-import googlelogo from '../../../public/Google.png'
 
 const Login = () => {
 
-  // const loginData = (event) => {
-  //   event.preventDefault();
-  //   const form = event.target;
-  //   const email = form.email.value;
-  //   const password = form.password.value;
-  //   console.log(email, password)
-  //   form.reset();
-  // }
 
   return (
     <div className='bg-gradient-to-r from-pink-100  to-green-100 py-12'>
@@ -41,10 +32,6 @@ const Login = () => {
               </div>
             </form>
             <div className="divider">or continue</div>
-            {/* <button className=" flex justify-center items-center gap-2 border-[1px] border-gray-300 py-2 rounded-xl my-3">
-            <img src={googlelogo} className='w-7 h-7'></img>
-            <span className='text-base'>Log in with Goole</span>
-            </button> */}
             <div className='flex justify-center items-center gap-2'>
               <p className='text-sm sm:text-sm md:text-base lg:text-base text-gray-500'>Don't have an account? </p> <Link to="#" className='text-black font-semibold text-sm sm:text-sm md:text-base lg:text-base'> SignUp</Link>
             </div>
