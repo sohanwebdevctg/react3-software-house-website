@@ -1,0 +1,4 @@
+.image{
+  filter: invert(92%) sepia(0%) saturate(7%) hue-rotate(256deg) brightness(74%) contrast(100%);
+  -webkit-filter: invert(92%) sepia(0%) saturate(7%) hue-rotate(256deg) brightness(74%) contrast(100%);
+}
