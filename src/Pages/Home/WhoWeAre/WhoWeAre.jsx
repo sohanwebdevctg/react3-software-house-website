@@ -9,7 +9,7 @@ AOS.init();
 const WhoWeAre = () => {
   return (
     <>
-      <section className="overflow-hidden py-5 my-5 md:my-16">
+      <section className="overflow-hidden py-5 my-5 md:mt-8 md:mb-16">
         <div className="container mx-auto px-5">
           <div className="sm:flex sm:items-center sm:justify-center sm:gap-2 lg:px-5">
             {/* left section start */}

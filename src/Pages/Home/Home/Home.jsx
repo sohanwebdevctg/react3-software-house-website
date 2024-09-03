@@ -1,4 +1,5 @@
 import Banner from '../Banner/Banner';
+import TrustedClient from '../TrustedClient/TrustedClient';
 import WhoWeAre from '../WhoWeAre/WhoWeAre';
 import OurServices from '../OurServices/OurServices';
 import Title from '../../../components/Title';
@@ -17,6 +18,9 @@ const Home = () => {
       {/* banner section start */}
         <Banner></Banner>
       {/* banner section end */}
+      {/* trustedClient section start */}
+      <TrustedClient></TrustedClient>
+      {/* trustedClient section end */}
       {/* whoWeAre section start */}
         <WhoWeAre></WhoWeAre>
       {/* whoWeAre section end */}
