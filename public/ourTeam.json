@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image" : "../public/ourTeam/img1.png",
+    "name": "John Fox",
+    "post" : "SEO/Marketing"
+  },
+  {
+    "id": 2,
+    "image" : "../public/ourTeam/img2.png",
+    "name": "Kate Rose",
+    "post" : "UI/UX Expert"
+  },
+  {
+    "id": 3,
+    "image" : "../public/ourTeam/img3.png",
+    "name": "Shawn",
+    "post" : "Developer/Designer"
+  },
+  {
+    "id": 4,
+    "image" : "../public/ourTeam/img4.png",
+    "name": "Michael",
+    "post" : "CEO/Manager"
+  }
+]
