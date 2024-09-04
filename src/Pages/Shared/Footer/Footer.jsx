@@ -15,6 +15,7 @@ const Footer = () => {
             <h3 className="text-xs sm:text-[13px] md:text-sm lg:text-base xl:text-xl 2xl:text-2xl font-bold mb-2">ABOUT US</h3>
             <ul>
               <li className="text-xs sm:text-xs md:text-sm lg:text-[15px] xl:text-base 2xl:text-xl text-gray-700"><Link to="/">Home</Link></li>
+              <li className="text-xs sm:text-xs md:text-sm lg:text-[15px] xl:text-base 2xl:text-xl text-gray-700"><Link to="/about">About</Link></li>
               <li className="text-xs sm:text-xs md:text-sm lg:text-[15px] xl:text-base 2xl:text-xl text-gray-700 my-1"><Link to="/services">Services</Link></li>
               <li className="text-xs sm:text-xs md:text-sm lg:text-[15px] xl:text-base 2xl:text-xl text-gray-700"><Link to="/contact">Contact</Link></li>
             </ul>
