@@ -1,4 +1,5 @@
 import BestUsers from "../BestUsers/BestUsers";
+import NoteService from "../NotchService/NoteService";
 import OurTeam from "../OurTeam/OurTeam";
 import UpdateNews from "../UpdateNews/UpdateNews";
 import Title from './../../../components/Title';
@@ -19,6 +20,9 @@ const About = () => {
       {/* updateNews section start */}
       <UpdateNews></UpdateNews>
       {/* updateNews section end */}
+      {/* notchService section start */}
+      <NoteService></NoteService>
+      {/* notchService section end */}
     </div>
   );
 };
