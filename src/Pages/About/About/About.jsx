@@ -1,3 +1,4 @@
+import BestUsers from "../BestUsers/BestUsers";
 import OurTeam from "../OurTeam/OurTeam";
 import UpdateNews from "../UpdateNews/UpdateNews";
 import Title from './../../../components/Title';
@@ -12,6 +13,9 @@ const About = () => {
       {/* ourTeam section start */}
       <OurTeam></OurTeam>
       {/* ourTeam section end */}
+      {/* bestUsers section start */}
+      <BestUsers></BestUsers>
+      {/* bestUsers section end */}
       {/* updateNews section start */}
       <UpdateNews></UpdateNews>
       {/* updateNews section end */}
