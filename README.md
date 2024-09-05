@@ -17,5 +17,5 @@
  * ### react-helmet
  * ### css animation
 
-* ### -> This project is hosted live on Netlify :()
+* ### -> This project is hosted live on Netlify :(https://vocal-bublanina-c240e4.netlify.app)
 * ### -> The source code for this project will be kept in Git hub :-(https://github.com/sohanwebdevctg/software-house)
