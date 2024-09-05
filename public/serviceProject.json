@@ -1,25 +1,25 @@
 [
   {
     "id": "659e635ad6e16f78115ea1b4",
-    "logo" : "../public/ourProject/store.png",
+    "logo" : "./ourProject/store.png",
     "title" : "Department Store",
     "projectNum" : "200"
   },
   {
     "id": "659e635a45f3c7314834a19d",
-    "logo" : "../public/ourProject/industry.png",
+    "logo" : "./ourProject/industry.png",
     "title" : "Industry",
     "projectNum" : "340"
   },
   {
     "id": "659e635a1d06c98227554e5c",
-    "logo" : "../public/ourProject/restaurant.png",
+    "logo" : "./ourProject/restaurant.png",
     "title" : "Restaurant",
     "projectNum" : "600"
   },
   {
     "id": "659e635a40dee421159c60c8",
-    "logo" : "../public/ourProject/hospital.png",
+    "logo" : "./ourProject/hospital.png",
     "title" : "Hospital",
     "projectNum" : "110"
   }

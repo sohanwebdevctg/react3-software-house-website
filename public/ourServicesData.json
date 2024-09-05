@@ -1,61 +1,61 @@
 [
   {
     "id": 1,
-    "image" : "../public/services/1.png",
+    "image" : "./services/1.png",
     "title1" : "Graphic &",
     "title2" : "Multimedia"
   },
   {
     "id": 2,
-    "image" : "../public/services/2.png",
+    "image" : "./services/2.png",
     "title1" : "Web &",
     "title2" : "Software"
   },
   {
     "id": 3,
-    "image" : "../public/services/3.png",
+    "image" : "./services/3.png",
     "title1" : "Digital",
     "title2" : "Marketing"
   },
   {
     "id": 4,
-    "image" : "../public/services/4.png",
+    "image" : "./services/4.png",
     "title1" : "3D Animation &",
     "title2" : "Visualization"
   },
   {
     "id": 5,
-    "image" : "../public/services/5.png",
+    "image" : "./services/5.png",
     "title1" : "Cyber",
     "title2" : "Security"
   },
   {
     "id": 6,
-    "image" : "../public/services/6.png",
+    "image" : "./services/6.png",
         "title1" : "Networking",
     "title2" : "Technology"
   },
   {
     "id": 7,
-    "image" : "../public/services/7.png",
+    "image" : "./services/7.png",
     "title1" : "Film & Media",
     "title2" : "Studies"
   },
   {
     "id": 8,
-    "image" : "../public/services/8.png",
+    "image" : "./services/8.png",
     "title1" : "Communication",
     "title2" : "Technology"
   },
   {
     "id": 9,
-    "image" : "../public/services/9.png",
+    "image" : "./services/9.png",
     "title1" : "Robotics &",
     "title2" : "Automation"
   },
   {
     "id": 10,
-    "image" : "../public/services/10.png",
+    "image" : "./services/10.png",
         "title1" : "Cloud",
     "title2" : "Computing"
   }
