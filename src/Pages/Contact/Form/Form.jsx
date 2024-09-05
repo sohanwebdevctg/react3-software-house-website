@@ -1,10 +1,22 @@
 import "./Form.css";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Form = () => {
+
+  //submitForm function
+  const submitData = (event)=> {
+    event.preventDefault();
+    const form = event.target;
+    form.reset();
+    toast("Your data submitted")
+  }
+
+
   return (
     <div className="p-2">
       {/* form section start */}
-      <form>
+      <form onSubmit={submitData}>
         {/* name & email section start */}
         <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-5 lg:gap-5">
           <input
@@ -56,6 +68,7 @@ const Form = () => {
         {/* submit button section end */}
       </form>
       {/* form section end */}
+      <ToastContainer />
     </div>
   );
 };

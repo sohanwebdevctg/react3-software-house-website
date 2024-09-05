@@ -20,7 +20,7 @@ const Contact = () => {
                 </h2>
                 {/* title section end */}
                 <div className="flex justify-center mb-6">
-                  <h2 className="bg-red-500 w-52 h-[1px] rounded"></h2>
+                  <h2 className="bg-red-500 w-32 sm:w-32 md:w-40 lg:w-48 xl:w-56 2xl:w-72 h-[1px] rounded"></h2>
                 </div>
                 <p className="text-base sm:text-lg md:text-base lg:text-xl lg:pr-20 my-5 text-justify sm:text-center text-gray-500">
                   We'll create high-quality linkable content and build at least
