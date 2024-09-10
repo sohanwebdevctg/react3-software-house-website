@@ -1,8 +1,17 @@
+import { useEffect } from "react";
 import Form from "../Form/Form";
 import ContactDescription from "./../ContactDescription/ContactDescription";
 import Location from "./../Location/Location";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+  //AOS
+  useEffect(() => {
+    AOS.init();
+  },[])
+
   return (
     <>
       <div className="relative ">
@@ -36,12 +45,11 @@ const Contact = () => {
           className="h-[580px] sm:h-[280px] md:h-[270px] lg:h-72 xl:h-[290px] 2xl:h-[295x] w-full "
           style={{ height: "revert-layer" }}
         ></div>
-
         <div className=" w-6/6 absolute inset-2/4 left-0 right-0 top-72">
           <div className="flex justify-center">
             <div className="w-5/6 sm:w-11/12 md:w-11/12 lg:w-5/6 xl:w-5/6 2xl:w-5/6 bg-white rounded-lg shadow-2xl  p-2 xl:p-3 m-4 sm:m-4 md:m-4 lg:m-2 xl:m-0 2xl:m-0">
               <div className="sm:flex sm:justify-between sm:gap-2">
-                <div className="rounded-lg bg-blue-600/100 relative overflow-hidden sm:flex-1">
+                <div className="rounded-lg bg-blue-600/100 relative overflow-hidden sm:flex-1" data-aos="zoom-in" data-aos-duration="2000">
                   {/* contact detales  */}
                   <ContactDescription></ContactDescription>
                   {/* div style  */}
