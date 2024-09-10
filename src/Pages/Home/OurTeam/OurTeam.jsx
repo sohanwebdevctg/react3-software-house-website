@@ -1,6 +1,15 @@
-import img from '../../../../public/joinOurTeam/team.png'
+import img from '../../../../public/joinOurTeam/team.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const OurTeam = () => {
+
+  //AOS
+  useEffect(() => {
+    AOS.init();
+  },[])
+
   return (
     <div className='px-5'>
       <section className="w-full h-2/6">
@@ -23,7 +32,7 @@ const OurTeam = () => {
             </div>
             {/* left item end */}
             {/* right item start */}
-            <div className="overflow-hidden mt-5 sm:mt-0 sm:flex-1 shadow-xl rounded-2xl p-5 sm:p-4 md:p-5 lg:p-4 xl:p-6 2xl:p-8">
+            <div className="overflow-hidden mt-5 sm:mt-0 sm:flex-1 shadow-xl rounded-2xl p-5 sm:p-4 md:p-5 lg:p-4 xl:p-6 2xl:p-8" data-aos="zoom-in" data-aos-duration="2000">
               <img src={img} className='w-full mx-auto rounded-2xl'></img>
             </div>
             {/* right item end */}

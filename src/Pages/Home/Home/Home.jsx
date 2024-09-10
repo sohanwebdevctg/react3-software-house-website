@@ -3,7 +3,6 @@ import TrustedClient from "../TrustedClient/TrustedClient";
 import WhoWeAre from "../WhoWeAre/WhoWeAre";
 import OurServices from "../OurServices/OurServices";
 import Title from "../../../components/Title";
-import TypeOfService from "../TypeOfService/TypeOfService";
 import Brands from "../Brands/Brands";
 import OurTeam from "../OurTeam/OurTeam";
 import Available from "../Available/Available";
@@ -23,9 +22,6 @@ const Home = () => {
       {/* ourTeam section start */}
       <OurTeam></OurTeam>
       {/* ourTeam section end */}
-      {/* typeOfService section start */}
-      <TypeOfService></TypeOfService>
-      {/* typeOfService section end */}
       {/* ourServices section start */}
       <OurServices></OurServices>
       {/* ourServices section end */}

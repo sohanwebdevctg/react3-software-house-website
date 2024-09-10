@@ -3,8 +3,18 @@ import { FiCoffee } from "react-icons/fi";
 import { IoPersonAdd } from "react-icons/io5";
 import { GiNotebook } from "react-icons/gi";
 import CountUp from 'react-countup';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const NoteService = () => {
+
+  
+  //AOS
+  useEffect(() => {
+    AOS.init();
+  },[])
+
   return (
     <div className='mt-6 mb-10'>
     <div className="container mx-auto">
@@ -40,7 +50,7 @@ const NoteService = () => {
       {/* card section start */}
       <div className='grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-1 my-6 px-5'>
         {/* item1 section start */}
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <ul className="text-center">
             <li className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"><FaCode className="text-center mx-auto"></FaCode></li>
             <li className="my-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-bold text-blue-600/100"><CountUp end={7453664} duration={5.75} />+</li>
@@ -49,7 +59,7 @@ const NoteService = () => {
         </div>
         {/* item1 section end */}
         {/* item2 section start */}
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <ul className="text-center">
             <li className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"><FiCoffee className="text-center mx-auto"></FiCoffee></li>
             <li className="my-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-bold text-blue-600/100"><CountUp end={43657} duration={5.75} />+</li>
@@ -58,7 +68,7 @@ const NoteService = () => {
         </div>
         {/* item2 section end */}
         {/* item3 section start */}
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <ul className="text-center">
             <li className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"><IoPersonAdd className="text-center mx-auto"></IoPersonAdd></li>
             <li className="my-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-bold text-blue-600/100"><CountUp end={16743} duration={5.75} />+</li>
@@ -67,7 +77,7 @@ const NoteService = () => {
         </div>
         {/* item3 section end */}
         {/* item4 section start */}
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <ul className="text-center">
             <li className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"><GiNotebook className="text-center mx-auto"></GiNotebook></li>
             <li className="my-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-bold text-blue-600/100"><CountUp end={36874} duration={5.75} />+</li>

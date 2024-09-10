@@ -1,4 +1,5 @@
 const ServiceData = ({ data, index }) => {
+
   // service data
   const { title, details } = data;
 

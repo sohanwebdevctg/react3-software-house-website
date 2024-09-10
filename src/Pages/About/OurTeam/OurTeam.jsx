@@ -1,6 +1,5 @@
-
-// fake json data
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { useEffect, useState} from "react";
 
 
@@ -14,7 +13,13 @@ const OurTeam = () => {
       fetch('ourTeam.json')
       .then((res) => res.json())
       .then((data) => setOurTeam(data))
-    },[])
+    },[]);
+
+    
+  //AOS
+  useEffect(() => {
+    AOS.init();
+  },[])
 
   return (
     <div className='mt-6 sm:mt-20 lg:mt-24 xl:mt-28'>
@@ -52,7 +57,7 @@ const OurTeam = () => {
         <div className='grid grid-cols-2 sm:grid-cols-4 gap-3 my-6 px-5'>
           {/* item1 section start */}
           {
-            ourTeam.map((data,index) =><div key={index}>
+            ourTeam.map((data,index) =><div key={index} data-aos="zoom-in" data-aos-duration="2500">
             {/* image section start */}
             <div className='relative'>
               <img src={data.image} className='h-36 sm:h-36 md:h-40 lg:h-52 xl:h-[250px] 2xl:h-72 w-[65%] mx-auto z-20'></img>

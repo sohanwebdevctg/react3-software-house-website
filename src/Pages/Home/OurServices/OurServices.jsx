@@ -3,16 +3,25 @@ import { useEffect, useState } from "react";
 import ServiceData from "../ServiceData/ServiceData.jsx";
 import Lottie from "lottie-react";
 import ourServiceSecurity from "../../../assets/ourServiceSecurity.json";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const OurServices = () => {
+
+  // set data
   const [service, setService] = useState([]);
 
-  // useEffect fetch the data from server
+  // fetch data
   useEffect(() => {
     fetch("services.json")
       .then((res) => res.json())
       .then((data) => setService(data));
   }, []);
+
+  //AOS
+  useEffect(() => {
+    AOS.init();
+  },[])
 
   return (
     <section className=" my-10">
@@ -50,7 +59,7 @@ const OurServices = () => {
         {/* description section start */}
         <div className="sm:flex sm:justify-between sm:items-center xl:gap-8 2xl:gap-10 lg:px-5">
           {/* left section start */}
-          <div className="overflow-hidden sm:w-1/2">
+          <div className="overflow-hidden sm:w-1/2" data-aos="zoom-in" data-aos-duration="2000">
             <Lottie animationData={ourServiceSecurity} loop={true} />
           </div>
           {/* left section end */}

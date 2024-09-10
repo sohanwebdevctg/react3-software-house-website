@@ -15,7 +15,7 @@ const WhoWeAre = () => {
             {/* left section start */}
             <div className="flex justify-center items-center sm:w-1/2 gap-1">
             {/* item1 section start */}
-              <div className="mx-1" data-aos="fade-right">
+              <div className="mx-1" data-aos="fade-right" data-aos-duration="1500">
                 <div className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                   <lord-icon
                     src="https://cdn.lordicon.com/wuvorxbv.json"
@@ -29,7 +29,7 @@ const WhoWeAre = () => {
               {/* item1 section end */}
               {/* item2 section start */}
               <div className="mx-1">
-                <div className="mb-5" data-aos="fade-down">
+                <div className="mb-5" data-aos="fade-down" data-aos-duration="1500">
                   <div className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                     <lord-icon
                       src="https://cdn.lordicon.com/ppsqwkvn.json"
@@ -40,7 +40,7 @@ const WhoWeAre = () => {
                     </h3>
                   </div>
                 </div>
-                <div className="mt-5" data-aos="fade-up">
+                <div className="mt-5" data-aos="fade-up" data-aos-duration="1500">
                   <div className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50">
                     <lord-icon
                       src="https://cdn.lordicon.com/abwrkdvl.json"
@@ -55,10 +55,9 @@ const WhoWeAre = () => {
               </div>
               {/* item2 section end */}
               {/* item3 section start */}
-              <div className="m-1">
-                <div
-                  className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50"
-                  data-aos="fade-left"
+              <div className="m-1" data-aos="fade-left" data-aos-duration="1500">
+                <div className="shadow-lg rounded p-1 sm:p-1 md:p-2 lg:p-2 xl:p-2 2xl:p-4 text-center w-20 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-44 hover:shadow-indigo-600/50 cursor-pointer  shadow-indigo-500/50"
+                  
                 >
                   <lord-icon
                     src="https://cdn.lordicon.com/lbjtvqiv.json"

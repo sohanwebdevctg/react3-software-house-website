@@ -1,6 +1,16 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import mapImg from "../../../../public/map/map1.png";
+import { useEffect } from 'react';
 
 const BestUsers = () => {
+
+  
+  //AOS
+  useEffect(() => {
+    AOS.init();
+  },[])
+
   return (
     <div className="w-full h-2/6 my-16">
       <div className="container mx-auto px-5">
@@ -39,15 +49,15 @@ const BestUsers = () => {
             {/* description section end */}
             {/* user percent section start */}
             <div className="grid grid-cols-3 gap-3 sm:gap-2 lg:gap-3 xl:gap-5 mt-5 md:mt-3">
-              <div className="rounded-xl shadow-lg p-2 lg:p-3 hover:shadow-indigo-600/50 shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600">
+              <div data-aos="zoom-in" data-aos-duration="1500" className="rounded-xl shadow-lg p-2 lg:p-3 hover:shadow-indigo-600/50 shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600">
                 <p className="text-[10px] sm:text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg font-bold">150k+</p>
                 <p className="text-[10px] sm:text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg">USA & UK</p>
               </div>
-              <div className="rounded-xl shadow-lg p-2 lg:p-3 hover:shadow-indigo-600/50 shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600">
+              <div data-aos="zoom-in" data-aos-duration="1500" className="rounded-xl shadow-lg p-2 lg:p-3 hover:shadow-indigo-600/50 shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600">
                 <p className="text-[10px] sm:text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg font-bold">45k+</p>
                 <p className="text-[10px] sm:text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg">Europe</p>
               </div>
-              <div className="rounded-xl shadow-lg p-2 lg:p-3 hover:shadow-indigo-600/50 shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600">
+              <div data-aos="zoom-in" data-aos-duration="1500" className="rounded-xl shadow-lg p-2 lg:p-3 hover:shadow-indigo-600/50 shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600">
                 <p className="text-[10px] sm:text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg font-bold">15k+</p>
                 <p className="text-[10px] sm:text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg">Asia</p>
               </div>
@@ -56,7 +66,7 @@ const BestUsers = () => {
           </div>
           {/* description section end */}
           {/* img section start */}
-          <div className="sm:flex-1 mt-10 sm:mt-0">
+          <div className="sm:flex-1 mt-10 sm:mt-0" data-aos="zoom-in" data-aos-duration="1500">
             <img src={mapImg} className="w-full h-56 sm:h-64 md:h-72 lg:h-80 mx-auto"></img>
           </div>
           {/* img section end */}
