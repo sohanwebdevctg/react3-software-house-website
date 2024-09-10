@@ -1,14 +1,23 @@
 import './CardService.css'
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CardService = () => {
 
+  //set data
   const [services, setServices] = useState([]);
 
+  // fetch data
   useEffect(() => {
     fetch('ourServicesData.json')
     .then((res) => res.json())
     .then((data) => setServices(data))
+  },[]);
+
+  //AOS
+  useEffect(() => {
+    AOS.init();
   },[])
 
   return (
@@ -44,9 +53,9 @@ const CardService = () => {
         </div>
         {/* title section end */}
         {/* card section start */}
-        <div className='grid grid-cols-2 sm:grid-cols-5 gap-3 sm:gap-4 md:gap-4 lg:gap-6 xl:gap-7 2xl:gap-7 mt-6 px-5'>
+        <div className='grid grid-cols-2 sm:grid-cols-5 gap-3 sm:gap-3 md:gap-4 lg:gap-6 xl:gap-6 2xl:gap-7 mt-6 px-5'>
           {
-            services.map((data, index) => <div key={index} className='text-center rounded-xl shadow-lg hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600 py-3 px-1 lg:py-4 xl:py-5 xl:px-2 space-y-2'>
+            services.map((data, index) => <div data-aos="zoom-in" data-aos-duration="2000" key={index} className='text-center rounded-xl shadow-lg hover:shadow-indigo-600/50 cursor-pointer shadow-indigo-500/50 hover:border-solid border-[1px] hover:border-[1px] hover:border-indigo-600 py-3 px-1 lg:py-4 xl:py-5 xl:px-2 space-y-2'>
             <img src={data.image} className='mx-auto w-7 h-7 sm:w-8 sm:h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 xl:w-12 xl:h-12 2xl:w-14 2xl:h-14'></img>
             <ul>
             <li className='text-[11px] sm:text-[10px] md:text-xs lg:text-base xl:text-lg 2xl:text-xl font-bold'>{data.title1}</li>
