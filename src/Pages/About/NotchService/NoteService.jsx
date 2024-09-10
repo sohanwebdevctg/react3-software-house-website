@@ -80,7 +80,9 @@ const NoteService = () => {
         <div data-aos="zoom-in" data-aos-duration="2000">
           <ul className="text-center">
             <li className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"><GiNotebook className="text-center mx-auto"></GiNotebook></li>
+            {/* countUp start */}
             <li className="my-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-bold text-blue-600/100"><CountUp end={36874} duration={5.75} />+</li>
+            {/* countUp end */}
             <li className="text-xs sm:text-xs md:text-sm lg:text-[15px] xl:text-base 2xl:text-lg">Realized<br></br>projects</li>
           </ul>
         </div>
